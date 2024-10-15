@@ -12,4 +12,5 @@ some_data |>
   group_by(some_stuff) |>
   summarise(some_calculation) -> new_data
 ```
+
 Besides that, can I use images hosted in this place? Will have to check.

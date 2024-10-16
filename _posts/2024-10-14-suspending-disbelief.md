@@ -1,4 +1,4 @@
-## Suspending desbelief
+## Suspending disbelief
 
 Can I keep a barebones blog/site in this place? Perhaps. But how barebones is enough?
 

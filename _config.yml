@@ -26,7 +26,7 @@ url: "https://luis.apiolaza.net" # the base hostname & protocol for your site, e
 
 
 # Build settings
-theme: hitchens-theme
+remote_theme: patdryburgh/hitchens
 plugins:
   - jekyll-feed
   - jekyll-paginate

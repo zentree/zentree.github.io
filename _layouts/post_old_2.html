@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+{% if site.data.menu %}
+  {% include menu.html %}
+{% else %}
+  {% include back-link.html %}
+{% endif %}
+
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting" id="main" role="article" aria-label="Content">
+
+  {% if page.title != "" %}
+    <h1 class="post-title divided p-name" itemprop="name headline">
+      {{ page.title }}
+    </h1>
+  {% endif %}
+
+  <div class="post-content e-content" itemprop="articleBody">
+    {{ content }}
+  </div>
+
+  <div class="post-meta">
+      <div itemprop="author">Tagged: 
+        {% for tag in page.tags %} 
+        <a href="{{ "/tags/" | append: tag }}">{{ tag }}</a>
+        {% endfor %}</div>
+    <time class="post-date dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%-d %B, %Y" }}</time>
+  </div>
+
+  {% if site.disqus.shortname %}
+    {% include disqus-comments.html %}
+  {% endif %}
+
+</article>

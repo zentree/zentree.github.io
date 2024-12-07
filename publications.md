@@ -7,8 +7,8 @@ layout: page
 guid: 'https://luis.apiolaza.net/?page_id=12'
 classic-editor-remember:
     - block-editor
-footnotes:
-    - ''
+tags:
+    - research
 ---
 
 PDF/HTML versions of my publications are here for my personal use; they should not be republished elsewhere. If you require a paper with no version in this page please [contact me](/contact-me/).

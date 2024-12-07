@@ -4,6 +4,7 @@ date: '2024-12-07T01:10:19+13:00'
 layout: post
 tags:
    - breeding
+   - research
 ---
 
 While tidying up my office I found the handout that accompanied my presentation in a breeding strategy meeting, held in Noosa, Australia in August 2005. Of course I entered "procrastination mode" and started reading the document which, modesty aside, was nicely written (thanks Tim Osborn for the editing suggestions 19 years ago!). I was surprised in several ways by this handout.

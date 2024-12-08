@@ -15,7 +15,6 @@ footnotes:
 image: /wp-content/uploads/2023/12/1703189294319.jpeg
 tags:
     - linkedin
-    - photos
     - stats
 ---
 

@@ -2,6 +2,7 @@
 id: 5181
 title: 'At the core of your breeding programme'
 date: '2023-11-11T20:07:53+13:00'
+mathjax: true
 author: Luis
 layout: post
 guid: 'https://luis.apiolaza.net/?p=5181'
@@ -27,7 +28,7 @@ Breeding programmes are vehicles to deliver genetic gain, which results on extra
 
 Typically books present the simplest formula:
 
-$$Gain = i h^2 \sigma_p$$
+$$\mbox{Gain} = i h^2 \sigma_p$$
 
 which works fine when dealing with a single trait, during the first round of selection based on an individual’s own record.
 
@@ -44,5 +45,3 @@ Did you develop a new way of phenotyping a hard-to-assess characteristic? We can
 We can look at the ideas, have basic discussions and later simulate those ideas (work *in silico* if you want to be posh).
 
 ![A few ways of thinking of genetic gain and the Breeder’s Equation.](/assets/images/breeders_equation.jpeg)
-
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>

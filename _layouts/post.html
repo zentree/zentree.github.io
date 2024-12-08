@@ -8,6 +8,10 @@ layout: default
   {% include back-link.html %}
 {% endif %}
 
+{% if page.mathjax %}
+{% include mathjax_support.html %}
+{% endif %}
+
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting" id="main" role="article" aria-label="Content">
 
   {% if page.title != "" %}

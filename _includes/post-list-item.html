@@ -5,8 +5,12 @@
           <h1 class="post-link__title">      
             {{ post.title }}
           </h1>
-      {% else %}
-        {% include post-excerpt.html %}
+
+          {% if post.tags contains "photos" %}
+            foto
+          {% else% }
+            {% include post-excerpt.html %}
+          {% endif %}
       {% endunless %}
       {% if post.title != "" and site.show_excerpts == true %}
         {% include post-excerpt.html %}

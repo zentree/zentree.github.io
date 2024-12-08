@@ -14,10 +14,8 @@ cybocfi_hide_featured_image:
 image: /wp-content/uploads/2016/11/PC010029.jpg
 categories:
     - bayesian
-    - r
-    - rblogs
     - stats
-    - teaching
+    - programming
 ---
 
 I was attending a course of Bayesian Statistics where this problem showed up:

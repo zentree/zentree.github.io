@@ -12,7 +12,7 @@ classic-editor-remember:
 cybocfi_hide_featured_image:
     - ''
 image: /wp-content/uploads/2016/11/PC010029.jpg
-categories:
+tags:
     - bayesian
     - stats
     - programming

@@ -35,7 +35,7 @@ I used to have strong opinions about some of my papers, now I agree with Van der
 ### Journal articles, book chapters and the like
 
 - \[66\] McLean D, **Apiolaza LA**, Klápště J, Evison D and Paget M. 2024. Optimising multivariate genomic selection strategies in New Zealand *Pinus radiata*. Submitted.
-- \[65\] Altaner CM, Gordon AJ, Sharma M and Apiolaza LA. 2024. Phenotyping a *Pinus radiata* breeding population for resin canal traits. *In press*.
+- \[65\] Altaner CM, Gordon AJ, Sharma M and Apiolaza LA. 2024. Phenotyping a *Pinus radiata* breeding population for resin canal traits. New Forests 56: 18 DOI: [10.1007/s11056-024-10087-1](https://doi.org/10.1007/s11056-024-10087-1) ([PDF](/assets/pdf/altaner_et_al_2024_phenotyping_resin.pdf)).
 - \[64\] McLean D, **Apiolaza LA**, Paget M and Klápště J. 2024. Well-connected trials show low genotype-by-environment interaction in *Pinus radiata*. Forest Ecology and Management DOI: [10.1016/j.foreco.2024.121887](https://doi.org/10.1016/j.foreco.2024.121887) (Open Access) ([PDF](/assets/pdf/McLean_et_al_2024_low_gxe.pdf)).
 - \[63\] Elissetche JP, **Apiolaza LA**, Alzamora RM, Soto LO, Lasserre JP. 2024. Peeler core and slabwood fibre properties for *Pinus radiata* D. Don pulp production. New Zealand Journal of Forestry Science DOI: [10.33494/nzjfs542024x268x](https://nzjforestryscience.nz/index.php/nzjfs/article/view/268) (Open Access) ([PDF](/assets/pdf/Elissetche_et_al_2024_peeler_core_slabwood.pdf)).
 - \[62\] Rajapaksha C, **Apiolaza LA**, Squire M and Altaner C. 2023. Genetic parameters of essential oil traits for *Eucalyptus bosistoana*. Australian Forestry 86: 90-99 DOI: [10.1080/00049158.2023.2270681](https://doi.org/10.1080/00049158.2023.2270681) (Open Access).

@@ -19,9 +19,9 @@ This site is published by Luis A. Apiolaza in Christchurch, New Zealand. These p
 
 ### Privacy and Tracking
 
-**There are no trackers and no ads in this site: none**.
+**There are no trackers and no ads in this site**. Depending on the theme I am using, there could be links to external fonts.
 
-**I measure number of visitors** with self-hosted, privacy-respecting web analytics and **no cookies**. I do not share this information with any third party. Further, I do not collect any personal data.
+**I do not collect any personal data**. I do not use cookies.
 
 **There are no “social” buttons** (Facebook, Twitter, whatever) either, tracking you from/to other sites. If you want to link to a post you’ll have to do it the old-fashion way, copy-pasting the link.
 

@@ -11,7 +11,7 @@ classic-editor-remember:
 
 *Ego sum qui sum*. I am who I love, what I read, what I believe, what I do, what  I know, what I want to know and the [simple rituals](/2010/01/31/rituals/) that I follow. I was what I did and part of it carries on on who I am today. Italo Calvino put it better:
 
-> Who are we, who is each one of us, if not a combinatoria of experiences, information, books we have read, things imagined?
+> ### Who are we, who is each one of us, if not a combinatoria of experiences, information, books we have read, things imagined?
 > 
 > <cite>Italo Calvino</cite>
 
@@ -34,9 +34,9 @@ I like literature, especially poetry and short stories, although I also enjoy go
 
 Depending on my mood I call myself a forester, a quantitative forester (term that I lifted from [Oscar](http://www.dasometrics.net/)), a quantitative geneticist or (if I want to sound suave and trendy) a statistical geneticist. I like the intrinsic beauty of mathematics; the fact that it is a useful discipline is a bonus.
 
-My first job was with the Chilean Tree Breeding Cooperative based at the [Universidad Austral de Chile](http://www.uach.cl), Valdivia. I lived four years in New Zealand while doing my Ph.D. and then moved to Hobart, Tasmania, Australia. There I was leader of the breeding strategies project at the CRC for Sustainable Production Forestry for three years based at the [School of Plant Science](https://www.utas.edu.au/natural-sciences/biological-sciences) (University of Tasmania). After that I worked as Forest Biometrician in Forestry Tasmania for another three years. I returned to New Zealand in 2006, where I am a Professor at the [University of Canterbury](http://www.canterbury.ac.nz).
+My first job was with the Chilean Tree Breeding Cooperative based at the [Universidad Austral de Chile](http://www.uach.cl), Valdivia. I lived four years in New Zealand while doing my Ph.D. and then moved to Hobart, Tasmania, Australia. There I was leader of the breeding strategies project at the CRC for Sustainable Production Forestry for three years based at the [School of Plant Science](https://www.utas.edu.au) (University of Tasmania). After that I worked as Forest Biometrician in [Forestry Tasmania](https://sttas.com.au) for another three years. I returned to New Zealand in 2006, where I am a Professor at the [University of Canterbury](http://www.canterbury.ac.nz).
 
-I was involved in the International Union of Forest Research Organizations ([IUFRO](http://www.iufro.org)) between 2005 and 2019 as Coordinator (and later Deputy Coordinator) of Working Group 2.04.02: [Breeding theory and progeny testing](http://www.iufro.org/science/divisions/division-2/)).
+I was involved in the International Union of Forest Research Organizations ([IUFRO](http://www.iufro.org)) between 2005 and 2019 as Coordinator of Working Group 2.04.02: [Breeding theory and progeny testing](http://www.iufro.org/science/divisions/division-2/)). Now I joined the group again as  Deputy Coordinator in 2024.
 
 ### Education
 

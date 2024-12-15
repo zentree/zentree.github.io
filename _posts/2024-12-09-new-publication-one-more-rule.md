@@ -4,7 +4,7 @@ title: 'New publication, one more rule'
 date: '2024-12-09T08:00:00+13:00'
 author: Luis
 layout: post
-permalink: /2024/04/04/new-publication-one-more-rule/
+permalink: /2024/12/04/new-publication-one-more-rule/
 classic-editor-remember:
     - block-editor
 tags:

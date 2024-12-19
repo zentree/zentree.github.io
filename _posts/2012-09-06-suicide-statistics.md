@@ -11,7 +11,7 @@ classic-editor-remember:
     - classic-editor
 cybocfi_hide_featured_image:
     - ''
-categories:
+tags:
     - stats
 ---
 

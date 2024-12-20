@@ -1,0 +1,330 @@
+Return-Path: owner-s-news@wubios.wustl.edu 
+Received: from wubios.wustl.edu (wubios.wustl.edu [128.252.117.1])
+	by temper.stat.cmu.edu (8.9.3/8.9.3) with ESMTP id EAA04140
+	for <s-news-archive@stat.cmu.edu>; Sat, 3 Jun 2000 04:00:06 -0400 (EDT)
+Received: from localhost (majordom@localhost)
+	by wubios.wustl.edu (8.9.3/8.9.3) with SMTP id CAA08392;
+	Sat, 3 Jun 2000 02:59:46 -0500 (CDT)
+Received: by wubios.wustl.edu (bulk_mailer v1.5); Sat, 3 Jun 2000 02:53:46 -0500
+Received: (from majordom@localhost)
+	by wubios.wustl.edu (8.9.3/8.9.3) id CAA07855
+	Sat, 3 Jun 2000 02:53:24 -0500 (CDT)
+Received: from snowy.nsw.cmis.CSIRO.AU (snowy.nsw.cmis.CSIRO.AU [130.155.16.108])
+	by wubios.wustl.edu (8.9.3/8.9.3) with SMTP id CAA07850
+	Sat, 3 Jun 2000 02:53:14 -0500 (CDT)
+Received: by snowy.nsw.cmis.CSIRO.AU (SMI-8.6/SMI-SVR4)
+	id RAA12779; Sat, 3 Jun 2000 17:52:39 +1000
+Received: from acland.qld.cmis.csiro.au(192.231.212.92)
+ via SMTP by snowy.nsw.cmis.CSIRO.AU, id smtpdAAAa0037d; Sat Jun  3 17:52:34 2000
+Received: (from venables@localhost)
+	by acland.qld.cmis.CSIRO.AU (8.9.3+Sun/8.9.3) id RAA27501;
+	Sat, 3 Jun 2000 17:52:33 +1000 (EST)
+Date: Sat, 3 Jun 2000 17:52:33 +1000 (EST)
+Message-Id: <200006030752.RAA27501@acland.qld.cmis.CSIRO.AU>
+X-Authentication-Warning: acland.qld.cmis.CSIRO.AU: venables set sender to venables@acland.qld.cmis.CSIRO.AU using -f
+From: Bill Venables <William.Venables@cmis.CSIRO.AU>
+To: s-news@wubios.wustl.edu
+Subject: Re: [S] Model syntax for split plot designs 
+In-Reply-To: Your message of "Fri, 02 Jun 2000 13:34:28 -0300."
+             <200006021634.NAA06119@tanner.math.unb.ca> 
+Sender: owner-s-news@wubios.wustl.edu
+X-loop: s-news
+Precedence: bulk
+
+
+Rolf Turner gets very excited over S-PLUS anova in the following terms:
+
+> 
+> Kent E. Holsinger writes:
+> 
+> >  I'm having trouble with what I'm sure is a very simple problem, i.e.,
+> >  specifying the correct syntax for a simple split plot design. To check
+> >  my understanding I'm using the cake data set from Table 7.5 of Cochran
+> >  & Cox.  .....
+>    .
+>    .
+>    .
+> >                    ..... I can't figure out what error term I need to
+> >  specify to match C&C's results. Surely I'm missing something simple,
+> >  but I've been staring at this for two hours, and I haven't been able
+> >  to figure out the answer yet.
+> 
+> I don't think that Prof. Holsinger is ``missing something
+> simple'' at all.  Not to put too fine a point on it, and
+> speaking as an absolutely committed devotee of Splus, I think
+> that the Splus syntax for analyzing experimental designs
+> containing random effects absolutely SUCKS!!!
+
+Steady there Rolf, you'll do yourself a damage...  :-)
+
+It's a cross-Atlantic culture clash.  The S-PLUS style is much
+more like Genstat than SAS or minitab.  They should end up at
+much the same place, but they do present it differently and it
+involves thinking about it differently.
+
+> I consider myself to be moderately competent at analyzing such
+> designs.  (Others may well wish to disagree with my self-assessment
+> of competence; I won't argue too strongly :-) .) 
+
+I'm sure you are much too modest Rolf.
+
+> Using Minitab or SAS I find the analysis of such designs to be
+> straightforward; the aov() function in Splus flummoxes me
+> completely.
+> 
+> E.g. in Minitab I analyzed the C&C cake data (and got my experimental
+> design students of last winter to analyze it), with the following
+> results:
+> 
+> MTB > ANOVA 'br.angle' = recipe | temp + replic + replic*recipe;
+> SUBC>   Random 'replic'.
+> 
+> Source         DF         SS         MS       F      P
+> recipe          2     135.09      67.54    1.58  0.224
+> temp            5    2100.30     420.06   20.52  0.000
+> recipe*temp    10     205.98      20.60    1.01  0.439
+> replic         14   10204.24     728.87   17.03  0.000
+> recipe*replic  28    1198.47      42.80    2.09  0.002
+> Error         210    4298.89      20.47
+> Total         269   18142.97
+> 
+> Modulo a few decimal places and some ordering and notational
+> differences this matches up nicely with the results in C&C.  Like
+> Prof. Holsinger I can't for the life of me figure out how to
+> reproduce the C&C analysis using aov().
+
+Now I find that presentation very confusing I must say.  Let me
+have a go at the kind of intuitive explanation I would prefer and
+become more formal and general later.
+
+First, go back and see what C&C have to say about the data.  In
+summary it is this:
+
+
+The students make a batter (or mix) from a single recipe and
+divide it into 6 portions, each of which is cooked at a different
+temperature.
+
+Three such mixes, each with a different recipe, constitute a
+replicate.
+
+There are 15 replicates done consecutively in time and therefore
+possibly differ in a random way.
+
+OK, so each observation gets three independent bits of error
+injected into it:
+
+1. A replicate effect (there are 15 of those, each shared between
+   45 observations)
+
+2. A mix within replicate effect (3 x 15 = 45 of those, also
+   shared)
+
+3. A portion within mix effect (6 x 3 x 15 = 270 of those, one
+   per observation, not shared).
+
+This sharing of random effects induces correlations between
+observations, so not all orthonormal linear functions will have
+the same variance as they would have if we only had to deal with
+the portion random effect.  The structure is still simple, though.
+
+Because of the regularity of the design it is now easy to see
+that there are four kinds of linear function of the observation
+vector, each of which (when normalized) has a different variance:
+
+1. The grand mean.  1 df
+
+2. Comparisons of replicate totals.  These will not contain
+   information on any fixed effect but can be used to estimate a
+   variance component, possibly of interest.  15 - 1 = 14 df.
+
+3. Comparisons of mix totals within replicates.  These will
+   contain information on the recipe main effect (2 df) and the
+   remaining df (15 x 2 - 2 = 28) are available for "within
+   replicate between mix" error.
+
+4. Comparisons of response values within mixes.  These will
+   contain information on the temperature main effect (5 df) and
+   the temperature x recipe interaction (10 df) and the remaining
+   df (210 = 45 x 5 - 15) are available for within mix error.
+
+OK, let's get to the code.
+
+The slightly confusing thing that people seem to take for granted
+when giving this stuff to students is that the recipe factor can
+be used for two purposes (a) to specify the fixed effect and its
+interactions and (b) when nested within replicates to specify the
+random effect we have consistently called "mix" in the above.  So
+let's make two factors to separate these two jobs:
+
+> cake <- read.table("/home/venables/cake.txt", head=T)
+> cake$temp <- ordered(cake$temp)
+> cake$recipe <- factor(cake$recipe)
+> cake$mix <- cake$recipe
+> cake$replic <- factor(cake$replic)
+ 
+Now remember that the random effects go inside Error() and the
+fixed effects outside:
+
+> fm <- aov(br.angle ~ temp*recipe + Error(replic/mix), cake)
+
+While we are at it we may as well do the polynomial split-up that
+C&C present (this is why we made temp an ordered factor):
+
+> summary(fm, split=list(temp=list(Lin = 1, Dev = 2:5)))
+
+Error: replic 
+          Df Sum of Sq  Mean Sq F Value Pr(F) 
+Residuals 14  10204.24 728.8746              
+
+Error: mix %in% replic 
+          Df Sum of Sq  Mean Sq  F Value     Pr(F) 
+recipe     2   135.089 67.54444 1.578053 0.2241857
+Residuals 28  1198.467 42.80238                   
+
+Error: Within 
+                    Df Sum of Sq  Mean Sq  F Value     Pr(F) 
+temp                 5  2100.300  420.060 20.51986 0.0000000
+  temp: Lin          1  1966.705 1966.705 96.07321 0.0000000
+  temp: Dev          4   133.595   33.399  1.63152 0.1675078
+temp:recipe         10   205.978   20.598  1.00620 0.4392694
+  temp:recipe: Lin   2     1.742    0.871  0.04254 0.9583622
+  temp:recipe: Dev   8   204.236   25.530  1.24711 0.2731676
+Residuals          210  4298.889   20.471                   
+
+---
+
+This is actually much closer to the C&C table(s) than the minitab
+output and I urge you to go back and check it from the book
+(p. 301 in the 1975 edition), not from some second-hand report of
+it.  C&C do not separate the first two tables, but it is actually
+very natural to do so.  Tests within tables are for fixed effects
+and tests between tables will be for random effects (testing
+wheter some variance component is zero).
+
+Strictly speaking you should have four anova tables corresponding
+to the four kinds of linear function described above, but the
+grand total is clearly uninformative about anything so it is
+omitted.  The remaining three tables above show you precisely
+which fixed effects are estimated within each level of variation
+(or stratum, of course) and what the stratum variances are
+estimated as.
+
+I think it is useful to stand back and see what these strata
+correspond to more generally.  The two simplifying things about a
+split plot design and those like it are
+
+1. The stable (or invariant) subspaces of the variance matrix are
+   known in advance.  In the case above there are four, and the
+   linear functions are the eigenvectors spanning those stable
+   subspaces.
+
+2. Each projection of the mean vector of interest is estimated
+   within a different stable subspace.  In the above example
+   these projections are the recipe main effect (second stratum)
+   and temperature main effect and temp x recipe interaction
+   (both third stratum).  
+
+When you get to something like a BIB with random blocks, you
+still have orthogonal strata but information on treatment
+differences is shared between the "within block" and the "between
+block" strata, and putting both together is the essential
+difficulty of non-orthogonal experiments.
+
+The error lines (or "Residuals" in the above tables) provide
+estimates of the eigenvalues corresponding to the stable
+subspaces and if testing fixed effects is all you are concerend
+with you don't need to bother about expected mean squares and all
+that malarkey, it's just irrelevant.  If you are interested in
+variance components, though, you do have to worry about all that
+malarkey.
+
+> When Bill Venables or someone like him tells us all how it should
+> be done, I ***may*** say ``Oh, duhhhhhh!!!'' and slap myself on the
+> forehead --- but I doubt it!
+
+I don't tell people how it should be done, Rolf, I merely invite
+them to consider ways of looking at things that personally I find
+useful and illuminating.  Other people may find other ways more
+productive.  Great, so long as we end up in the same place.
+
+> Incidentally I am firmly of the opinion that talking about ``split
+> plots'' as such is counter-productive, confusing, and antiquated.
+> The ***right*** way to think about such problems is simply to decided
+> which effects are random and which are fixed.  Then think about
+> expected mean squares, and choose the denominator of your F-statistic
+> so that under H_0 the ratio of the expected mean squares is 1.
+> Nice, neat, simple, precise, foolproof, and no super-human intuition
+> or visualization abilities required.
+
+My preferred protocol is very different.  I suggest one useful
+way of thinking about it is as follows:
+
+1. What are the stable subspaces of the variance matrix?  If we
+   know them the projections of the response vector onto those
+   will be independent between and homoscedastic within.  These
+   are the strata.
+
+2. What interesting projections of the mean vector are non-zero
+   in each stratum?  If each of these is confined to a single
+   stratum the whole analysis of fixed effects is simple.  (If
+   not I may need to consider an analysis that integrates
+   information across strata but that's a longer story.)
+
+3. Is my interest also in components of variance?  If so I need
+   to consider expected mean squares and see what each eigenvalue
+   looks like in terms of the variance component of interest.
+   Hence estimate or test as appropriate.
+
+This divide-and-conquer idea of separating the data using linear
+functions with homogeneous error variances, that is, the spectral
+decomposition of the variance matrix, I find immensely
+simplifying and natural.  It is exactly the same thing as doing a
+(theoretical) principal component analysis first, of course.  The
+contrary notion of putting everything together in one big anova
+table with interactions between random and fixed effects standing
+in for what really are error terms and pondering which one goes
+on the bottom of which other is to lose the plot entirely.  Why
+are people determined to have a single analysis of variance table
+at all costs?  It really baffles me.
+
+> Can't some clever person write a linear modelling function for
+> Splus which mimics the behaviour of SAS's ``PROC GLM'' and
+> Minitab's GLM command (or Minitab's ANOVA command for balanced data)
+> and doesn't mess people's minds with ``strata'' and ``Error()'' and
+> other such blithering confusions?
+
+Oh the answer has to be a resounding "Yes!!"  That person is none
+other than you, Rolf.  Go to it, lad...  :-)
+
+> The only ***real*** problem, as I see it, would be what to call such
+> a function --- since ``glm()'' is already taken by ***generalized***
+> linear models :-) .
+
+Ah, but at least we respect case here.  By all means use GLM().
+It won't bother me.
+
+> P. S. If anyone wants to experiment with the C&C cake data, it's
+> on my web page:
+> 
+> 	http://www.math.unb.ca/~rolf/
+> 
+> then click on Current courses --> Stat 3373 --> Chocolate cake data.
+
+Thanks, and yes I did.  
+
+Would people find it useful if we put a note on this into the V&R
+complements, or is it all clear now?  (If so, please let me know
+privately, not the S-news list.)
+
+Bill Venables.
+-- 
+Bill Venables,      Statistician,     CMIS Environmetrics Project
+CSIRO Marine Labs, PO Box 120, Cleveland, Qld,  AUSTRALIA.   4163
+Tel: +61 7 3826 7251           Email: Bill.Venables@cmis.csiro.au    
+Fax: +61 7 3826 7304      http://www.cmis.csiro.au/bill.venables/
+
+-----------------------------------------------------------------------
+This message was distributed by s-news@wubios.wustl.edu.  To unsubscribe
+send e-mail to s-news-request@wubios.wustl.edu with the BODY of the
+message:  unsubscribe s-news

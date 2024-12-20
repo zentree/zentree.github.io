@@ -24,4 +24,4 @@ I was testing a Zoom H4n with a couple of external omni microphones while walkin
 <source src="/assets/audio/1-51-in-the-backyard.mp3" type="audio/mpeg">
 </audio>
 
-![Dear doggio running at night, Christchurch.](/assets/images/dog_at_night.jpg)
+![Dear doggio running at night, Christchurch.](/assets/images/dog-at-night.jpg)

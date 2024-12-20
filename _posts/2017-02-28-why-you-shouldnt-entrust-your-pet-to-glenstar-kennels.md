@@ -28,7 +28,7 @@ The New Zealand Animal Welfare Act 1999 and the [Code of Welfare for Dogs 2010](
 
 According to the schedule sent to me by Glenstar Kennels, there were 12 hours of contact a day when someone had access to my dog and 65 days to figure out that he was becoming overweight and take appropriate action. The photo below shows my dog’s increased girth as I tried to fit his harness as per the size when I drop him off at Glenstar’s facility on 9th December and his size on 12th February (after gaining 5 kg). There is a dramatic difference, well explained by the term *negligence*.
 
-![Poor doggio showing his change of girth after two months in Glenstar Kennels.](/assets/images/dog_glenstar.jpg)
+![Poor doggio showing his change of girth after two months in Glenstar Kennels.](/assets/images/dog-glenstar.jpg)
 
 I am very unhappy with the level of care provided by Glenstar Kennels and the lack of a satisfactory reply to my written complaints. After 2 months away I had to take my dog to his usual veterinary to discuss his overweight, with the associated cost, so I could bring him back to good health. Dog and I have been doing our usual daily walks (as we did before the trip), and I have been very careful about his nutrition, so he can go slowly back to his optimal 27 kg.
 

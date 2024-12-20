@@ -11,4 +11,4 @@ tags:
     - photos
 ---
 
-![Accidental phone camera knee.](/assets/images/accidental_knee.jpg)
+![Accidental phone camera knee.](/assets/images/accidental-knee.jpg)

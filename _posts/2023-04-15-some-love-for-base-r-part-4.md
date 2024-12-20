@@ -170,4 +170,4 @@ assess <- merge(densdataT,
                 mfadataT, by = c('tree', 'ring'), all = TRUE)
 ```
 
-![Increment cores from where the data comes from.](/assets/images/cores_graph.jpg)
+![Increment cores from where the data comes from.](/assets/images/cores-graph.jpg)

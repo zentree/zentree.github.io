@@ -35,4 +35,4 @@ When working with several collaborators (colleagues, students, etc) the easiest 
 
 Even if you are an old dog (like me) I think it pays to change to a subset of R that is more learnable. And once someone gets hooked, the transition to adding non-tidyverse functions is more bearable.
 
-![The data were coming from cores like this one.](/assets/images/cores_graph.jpg)
+![The data were coming from cores like this one.](/assets/images/cores-graph.jpg)

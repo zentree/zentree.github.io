@@ -17,7 +17,7 @@ tags:
     - research
 ---
 
-(This post continues discussing issues I described back in January in [Academic publication boycott](/2012/01/academic-publication-boycott/))
+(This post continues discussing issues I described back in January in [Academic publication boycott](/2012/01/30/academic-publication-boycott/))
 
 Some weeks ago I received a couple of emails the same day: one asking me to submit a paper to an open access journal, while the other one was inviting me to be the editor of an ‘special issue’ of my choice for another journal. I haven’t heard before about any of the two publications, which follow pretty much the same model: submit a paper for $600 and—if they like it—it will be published. However, the special issue email had this ‘buy your way in’ feeling: find ten contributors (i.e. $6,000) and you get to be an editor. Now, there is nothing wrong per-se with open access journals, some of my favorite ones (e.g. [PLoS ONE](http://www.plosone.org)) follow that model. However, I was surprised by the increasing number of new journals that look at filling the gap for ‘I need to publish soon, somewhere’. Surprised until one remembers the incentives at play in academic environments.
 

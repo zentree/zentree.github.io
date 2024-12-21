@@ -7,7 +7,9 @@
           </h1>
 
           {% if post.tags contains "photos" %}
-            foto
+            [◉¯] 
+          {% elsif post.tags contains "quotes" %}
+            "皿" 
           {% else% }
             {% include post-excerpt.html %}
           {% endif %}

@@ -20,4 +20,4 @@ tags:
 
 Unfortunately for the scientist/statistician, the studio is not going ahead with this story. At least he is drinking a glass of heavy-duty Cabernet Sauvignon.
 
-![](/assets/images/christmas-trees.jpeg)
+![A summer Christmas season with flowering trees, Christchurch.](/assets/images/christmas-trees.jpeg)

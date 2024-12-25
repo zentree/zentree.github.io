@@ -14,4 +14,4 @@ tags:
 format: image
 ---
 
-![The dance asthmatics, taken in Chinatown, Christchurch.](/assets/images/dance_asthmatics.jpg)
+![The dance asthmatics, taken in Chinatown, Christchurch.](/assets/images/dance-asthmatics.jpg)

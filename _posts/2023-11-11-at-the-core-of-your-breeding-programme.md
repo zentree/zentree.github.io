@@ -44,4 +44,4 @@ Did you develop a new way of phenotyping a hard-to-assess characteristic? We can
 
 We can look at the ideas, have basic discussions and later simulate those ideas (work *in silico* if you want to be posh).
 
-![A few ways of thinking of genetic gain and the Breeder’s Equation.](/assets/images/breeders_equation.jpeg)
+![A few ways of thinking of genetic gain and the Breeder’s Equation.](/assets/images/breeders-equation.jpeg)

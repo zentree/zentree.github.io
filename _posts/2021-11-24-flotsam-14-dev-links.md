@@ -13,7 +13,7 @@ tags:
     - programming
 ---
 
-Back doing some coding, playing with R packages and collaborating with someone else. This is an unusual situation for me, as I write my own code, and never bothered learning to use git (or other code management system). With the help of the Twitter crowd I’ve been slowly learning to use some git so the first link goes to [How to Rebase a Pull Request](https://github.com/edx/edx-platform/wiki/How-to-Rebase-a-Pull-Request).
+Back doing some coding, playing with R packages and collaborating with someone else. This is an unusual situation for me, as I write my own code, and never bothered learning to use git (or other code management system). With the help of the Twitter crowd I’ve been slowly learning to use some git so the first link goes to [How to Rebase a Pull Request](https://web.archive.org/web/20150316131654/https://github.com/edx/edx-platform/wiki/How-to-Rebase-a-Pull-Request).
 
 Another interesting link is [Getting started with unit testing in R](https://www.pipinghotdata.com/posts/2021-11-23-getting-started-with-unit-testing-in-r/), which will come handy with some other programming work implementing research models.
 

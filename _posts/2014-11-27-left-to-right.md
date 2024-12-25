@@ -81,4 +81,4 @@ facet_grid(~Urban.Area)
 
 Not too alien; now using the `magrittr` package with right assign would make a lot more sense.
 
-![Funding change per student (NZ$) on total school roll.](/assets/images/change_per_student_rural_non_rural.png)
+![Funding change per student (NZ$) on total school roll.](/assets/images/change-per-student-rural-non-rural.png)

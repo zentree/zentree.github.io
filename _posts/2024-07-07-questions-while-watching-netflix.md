@@ -23,4 +23,4 @@ Population is not the same as consumption, but they are associated. Some of thes
 
 Graph: total population predictions by the United Nations’ Department of Economic and Social Affairs.
 
-![Prediction of total population for China.](/assets/images/china_population.png)
+![Prediction of total population for China.](/assets/images/china-population.png)

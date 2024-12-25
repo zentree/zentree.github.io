@@ -23,4 +23,4 @@ format: quote
 > 
 > <cite>*Franz Kafka*</cite>
 
-![Walking at night mood, Canterbury.](/assets/images/end_of_day.jpg)
+![Walking at night mood, Canterbury.](/assets/images/end-of-day.jpg)

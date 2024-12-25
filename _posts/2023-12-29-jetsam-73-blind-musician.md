@@ -18,4 +18,4 @@ tags:
     - photos
 ---
 
-![Blind musician playing melodica at Santiago subway (RNI Films app, profile ‘Kodak Ektar 100’)](/assets/images/blind_rni_films_ektar.jpeg)
+![Blind musician playing melodica at Santiago subway (RNI Films app, profile ‘Kodak Ektar 100’)](/assets/images/blind-rni-films-ektar.jpeg)

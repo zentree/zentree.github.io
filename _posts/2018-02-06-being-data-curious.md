@@ -38,7 +38,7 @@ A quick look shows that the series contains both quoted consumption figures, sho
 
 When exploring data is useful to have some sort of benchmark to see if other things are also changing at the same time. I chose our neighbor Australia—with a not so different diet, similar part of the world—as my benchmark. The Australian time series doesn’t show a change like NZ. Besides using the benchmark for the same product, we can also compare what’s going on with other meats. For example, beef and veal, pork and poultry.
 
-![Beef, veal meat.](/assets/images/beef_veal_meat.jpg)
+![Beef, veal meat.](/assets/images/beef-veal-meat.jpg)
 
 ![Pork consumption for Australia and New Zealand, kg/capita.](/assets/images/pork_meat.jpg)
 

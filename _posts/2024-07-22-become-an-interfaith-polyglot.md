@@ -29,4 +29,4 @@ As an agnostic (in my good days) or an atheist (in my bad ones) I am not prone t
 
 I have chosen to be an interfaith polyglot.
 
-![Audrey Hepburn speaks multiple versions of cat](/assets/images/audrey_hepburn.jpeg)
+![Audrey Hepburn speaks multiple versions of cat](/assets/images/audrey-hepburn.jpeg)

@@ -20,4 +20,4 @@ tags:
 > 
 > <cite>John W Tukey in [Sunset Salvo](http://www-stat.wharton.upenn.edu/~steele/HoldingPen/SunsetSalvo.pdf). 1986. The American Statistician 40(1): 72-76.</cite>
 
-![Bad apple.](/assets/images/bad_apple.jpg)
+![Bad apple.](/assets/images/bad-apple.jpg)

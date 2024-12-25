@@ -18,4 +18,4 @@ tags:
 
 Thursday was a fantastic “red sky at night, shepherd’s delight” time while driving to pick up kiddo and then home in Ōtautahi Christchurch. Photo straight-up from the camera, no retouches.
 
-![Driving in Moorhouse (Antigua traffic lights), Ōtautahi Christchurch.](/assets/images/red_sky_at_night.jpg)
+![Driving in Moorhouse (Antigua traffic lights), Ōtautahi Christchurch.](/assets/images/red-sky-at-night.jpg)

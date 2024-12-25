@@ -15,4 +15,4 @@ tags:
     - photos
 ---
 
-![Child walking on the beach on a cloudy day.](/assets/images/at_the_beach.jpg)
+![Child walking on the beach on a cloudy day.](/assets/images/at-the-beach.jpg)

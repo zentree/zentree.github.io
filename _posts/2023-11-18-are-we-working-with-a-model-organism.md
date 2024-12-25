@@ -20,4 +20,4 @@ If you work in primary production—cereals, veggies, fruits, animals, or trees 
 
 Progressively we start managing enough information that some of the genotypes in our breeding programme start acting/feeling like model organisms. So, yes, *Pinus radiata* (radiata pine, Monterrey pine) is my model organism.
 
-![Bird on top of radiata pine plantation.](/assets/images/bird_on_pine.jpg)
+![Bird on top of radiata pine plantation.](/assets/images/bird-on-pine.jpg)

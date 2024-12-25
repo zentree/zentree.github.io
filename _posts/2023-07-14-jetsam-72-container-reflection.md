@@ -15,4 +15,4 @@ tags:
     - photos
 ---
 
-![Container corner reflected on a puddle. Christchurch.](/assets/images/container_puddle.jpg)
+![Container corner reflected on a puddle. Christchurch.](/assets/images/container-puddle.jpg)

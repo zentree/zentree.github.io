@@ -60,9 +60,9 @@ Como referencia, una hectárea (abreviado ha) son 100 m x 100 m (10.000 m<sup>2<
 
 La composición de los beneficiarios del subsidio cambia con tiempo. Así en el primer período (1975-1995) la recepción de subsidios es dominada por grandes empresas y propietarios. La ley 19.561 de 1998 modifica el DL701, concentrando los subsidios en pequeños y medianos propietarios e incorporando incentivos para la recuperación de suelos degradados. Los gráficos muestran el cambio de orientación, con mayor participación de pequeños propietarios y restauración de tierras degradadas.
 
-![Evolución en las áreas bonificadas (hectáreas en el eje Y, año en el eje X). Consorcios forestales y medianos propietarios dominan el primer período, pequeños y medianos propietarios dominan el segundo período (Fuente: informe de CONAF citado anteriormente, página 24).](/assets/images/bonificacion_area_tipo_propietario.jpg)
+![Evolución en las áreas bonificadas (hectáreas en el eje Y, año en el eje X). Consorcios forestales y medianos propietarios dominan el primer período, pequeños y medianos propietarios dominan el segundo período (Fuente: informe de CONAF citado anteriormente, página 24).](/assets/images/bonificacion-area-tipo-propietario.jpg)
 
-![Evolución de los montos modificados en miles de dólares (es decir 30.000 es 30 millones, por ejemplo) por tipo de propietario. Inicialmente los montos son dominados por consorcios forestales y medianos propietarios; luego los montos son dominados por los pequeños y medianos propietarios.](/assets/images/bonificacion_dolares_tipo_propietario.jpg)
+![Evolución de los montos modificados en miles de dólares (es decir 30.000 es 30 millones, por ejemplo) por tipo de propietario. Inicialmente los montos son dominados por consorcios forestales y medianos propietarios; luego los montos son dominados por los pequeños y medianos propietarios.](/assets/images/bonificacion-dolares-tipo-propietario.jpg)
 
 En 2008 aparece la [Ley 20.283 de Recuperación del Bosque Nativo y Fomento Forestal](https://www.conaf.cl/nuestros-bosques/bosque-nativo/) que considera bonificaciones para la conservación, recuperación y manejo de bosques nativos.
 

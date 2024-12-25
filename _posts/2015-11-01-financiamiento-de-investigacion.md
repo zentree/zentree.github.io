@@ -43,7 +43,7 @@ Los investigadores representamos un grupo privilegiado: hemos tenido la mejor ed
 
 Si uno estuviera a cargo del desarrollo de políticas públicas, ¿cuáles serían la inversiones que maximizan el beneficio para la sociedad? Quizás invertir en educación de buena calidad para una mayoría de la población, mejorar salud y nutrición para los sectores menos favorecidos tengan una mayor rentabilidad social. Algo así como los esfuerzos para reducir la mortalidad infantil (datos [aquí](https://data.oecd.org/healthstat/infant-mortality-rates.htm). Por si acaso, los países con más alta mortalidad en el gráfico son México y Turquía).
 
-![Uno de los mayores logros en Chile: la reducción de la mortalidad infantil.](/assets/images/child_mortality.png)
+![Uno de los mayores logros en Chile: la reducción de la mortalidad infantil.](/assets/images/child-mortality.png)
 
 #### ¿Y la economía del conocimiento?
 

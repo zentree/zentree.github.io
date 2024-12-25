@@ -7,6 +7,7 @@ layout: post
 guid: 'https://luis.apiolaza.net/?p=3840'
 permalink: /2018/01/04/italo-calvinos-humanity/
 tags:
+    - books
     - quotes
 ---
 

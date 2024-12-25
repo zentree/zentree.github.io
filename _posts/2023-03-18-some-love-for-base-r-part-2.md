@@ -101,4 +101,4 @@ mtcars |> with(mean(mpg))
 
 Both `within()` (used in part 1) and `with()` will make your base code mucho moar readable (pun intended) and pipe ready.
 
-![Between buildings](/assets/images/between_buildings.jpeg)
+![Between buildings](/assets/images/between-buildings.jpeg)

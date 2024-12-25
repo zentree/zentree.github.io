@@ -15,4 +15,4 @@ tags:
     - photos
 ---
 
-![My clown bear.](/assets/images/bear_clown1.jpg)
+![My clown bear.](/assets/images/bear-clown1.jpg)

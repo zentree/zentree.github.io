@@ -48,13 +48,13 @@ I am compelled to comment on two aspects that led the authors to draw incorrect 
 
 Heinemann et al. used FAO data\[[↓](#SM1)\], from 1961 to 2010 inclusive, to fit linear models with yield as the response variable, country and year as predictors. Based on this analysis they concluded, “W. Europe has benefitted from the same, or marginally greater, yield increases without GM”. However, this assumes a common yield trajectory for United States and Western Europe before significant commercial use of GM maize, conflating GM and non-GM yields. GM maize adoption in United States has continually increased from 25% of area of maize planted in 2000 to the current 90% (Figure 1, United States Department of Agriculture 2013\[[↓](#SM2)\]).
 
-![Figure 1: Adoption of GM maize in United States, expressed as percentage of planted area.](/assets/images/corn_penetration_1.png)
+![Figure 1: Adoption of GM maize in United States, expressed as percentage of planted area.](/assets/images/corn-penetration-1.png)
 
 If we fit a linear model from 1961 to 1999 (last year with less than 25% area of GM maize) we obtain the following regression equations ($$y = 1094.8 x + 39895.6$$) (United States, R<sup>2</sup> = 0.80) and ($$y = 1454.5 x + 29802.2$$) (W. Europe, R<sup>2</sup> = 0.90). This means that Western Europe started with a considerably lower yield than the USA (29,802.2 vs 39,895.6 hg/ha) in 1961 but increased yields faster than USA (1,454.5 vs 1,094.8 hg/ha per year) before substantial use of GM maize. By 1999 yield in Western Europe was superior to that in United States.
 
 This is even more evident in Figure 2, which shows average yield per decade, removing year-to-year extraneous variation (e.g. due to weather). Western European yields surpassed United States’s during the 1990s (Figure 2). This trend reverses in the 2000s, while United States simultaneously increased the percentage of planted area with GM maize, directly contradicting Heinemann et al.’s claim.
 
-![Figure 2: Average maize yield (and standard error) per decade for United States and Western Europe. The 2010s include a single year to replicate the original data set (click to enlarge).](/assets/images/corn_yield_per_decade.png)
+![Figure 2: Average maize yield (and standard error) per decade for United States and Western Europe. The 2010s include a single year to replicate the original data set (click to enlarge).](/assets/images/corn-yield-per-decade.png)
 
 ## 2. Ignoring structural differences between agricultural sectors
 

@@ -14,24 +14,24 @@ tags:
     - programming
 ---
 
-We often forget for how long we’ve been writing code in specific languages. For example, I started using SAS in 1992 for the analysis of progeny trials, Python to control Fortran sampling simulations in 1997, and R for general statistics in 1998. Your favourite language could be fairly old:  
+We often forget for how long we’ve been writing code in specific languages. For example, I started using `SAS` in 1992 for the analysis of progeny trials, `Python` to control `Fortran` sampling simulations in 1997, and `R` for general statistics in 1998. Your favourite language could be fairly old:  
   
-Fortran: 66 years old  
-COBOL: 64 yo  
-Lisp: 63 yo  
-BASIC: 59 yo  
-C: 51 yo  
-SAS: 51 yo  
-SQL: 49 yo  
-MATLAB: 44 yo  
-C++: 38 yo  
-Python: 32 yo  
-R: 30 yo  
-Java: 28 yo  
-Ruby: 28 yo  
-Javascript: 27 yo  
-Clojure: 16 yo  
-Julia: 11 yo  
-Elixir: 11 years old
+`Fortran`: 66 years old  
+`COBOL`: 64 yo  
+`Lisp`: 63 yo  
+`BASIC`: 59 yo  
+`C`: 51 yo  
+`SAS`: 51 yo  
+`SQL`: 49 yo  
+`MATLAB`: 44 yo  
+`C++`: 38 yo  
+`Python`: 32 yo  
+`R`: 30 yo  
+`Java`: 28 yo  
+`Ruby`: 28 yo  
+`Javascript`: 27 yo  
+`Clojure`: 16 yo  
+`Julia`: 11 yo  
+`Elixir`: 11 years old
 
 ![Keyboard closeup.](/assets/images/keyboard_closeup.jpg)

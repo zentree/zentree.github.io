@@ -14,17 +14,17 @@ tags:
     - programming
 ---
 
-It used to be that the one of the first decisions to make when learning to program was between compiled (e.g. C or FORTRAN) and interpreted (e.g. Python) languages. In my opinion these days one would have to be a masochist to *learn* with a compiled language: the extra compilation time and obscure errors are a killer when learning.
+It used to be that the one of the first decisions to make when learning to program was between compiled (e.g. `C` or `FORTRAN`) and interpreted (e.g. `Python`) languages. In my opinion these days one would have to be a masochist to *learn* with a compiled language: the extra compilation time and obscure errors are a killer when learning.
 
-Today the decision would be between using a generic interpreted language (e.g. Python) and an interpreted domain specific language (DSL) like R, MATLAB, etc. While [some people](http://www.johndcook.com/blog/) prefer generic languages, I’d argue that immediate feedback and easy accomplishment of useful tasks are a great thing when one is learning something for the first time.
+Today the decision would be between using a generic interpreted language (e.g. `Python`) and an interpreted domain specific language (DSL) like `R`, `MATLAB`, etc. While [some people](http://www.johndcook.com/blog/) prefer generic languages, I’d argue that immediate feedback and easy accomplishment of useful tasks are a great thing when one is learning something for the first time.
 
-As an example, a while ago my son asked me what I was doing in the computer and I told him that I was programming some analyses in R. I showed that the program was spitting back some numbers and plots, a fact that he found totally unremarkable and uninteresting. I searched in internet and I found [Scratch](http://scratch.mit.edu/), a visual programming language, that let’s the user moves blocks representing code around and build interactive games: now my son was sold. Together we are learning about loops, control structures and variables, drawing characters, etc. We are programming because the problems are i- much more interesting for him and ii- achievable in a short time frame.
+As an example, a while ago my son asked me what I was doing in the computer and I told him that I was programming some analyses in `R`. I showed that the program was spitting back some numbers and plots, a fact that he found totally unremarkable and uninteresting. I searched in internet and I found [Scratch](http://scratch.mit.edu/), a visual programming language, that let’s the user moves blocks representing code around and build interactive games: now my son was sold. Together we are learning about loops, control structures and variables, drawing characters, etc. We are programming because the problems are i- much more interesting for him and ii- achievable in a short time frame.
 
 ![An example scratch script.](/assets/images/scratch.jpeg)
 
 Learning to program for statistics, or other scientific domains for that matter, is not that different from being a kid and learning programming. Having to do too much to get even a mildly interesting result is frustrating and discouraging; it is not that the learner is dumb, but that he has to build too many functions to get a meager reward. This is why I’d say that you should use whatever language already has a large amount of functionality (‘batteries included’ in Python parlance) for your discipline. Choose rightly and you are half-way there.
 
-‘But’ someone will say, R is not a real language. Sorry, but it is a real [language](/2012/01/r-is-a-language/) (Turing complete and the whole shebang) with oddities, as any other language, granted. As with human languages, the more you study the easier it gets to learn a new language. In fact, the syntax for many basic constructs in R is highly similar to alternatives:
+‘But’ someone will say, R is not a real language. Sorry, but it is a real [language](/2012/01/11/r-is-a-language/) (Turing complete and the whole shebang) with oddities, as any other language, granted. As with human languages, the more you study the easier it gets to learn a new language. In fact, the syntax for many basic constructs in R is highly similar to alternatives:
 
 ```r
 # This is R code
@@ -84,4 +84,4 @@ Many people struggle vectorizing the code so it runs faster. Again, don’t worr
 Don’t get distracted with the politics of research and repeatability and trendy things like git (noticed that I didn’t even link to them?). You’ll learn them in time, once you got a clue about how to program.
 
 P.S. The code used in the examples could be shortened and sped up dramatically (e.g. `1:10` or `range(1, 11)`) but it is not the point of this post.  
-P.S.2. A while ago I wrote [R is a language](/2012/01/r-is-a-language/), which could be useful connected to this post.
+P.S.2. A while ago I wrote [R is a language](/2012/01/11/r-is-a-language/), which could be useful connected to this post.

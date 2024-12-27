@@ -13,7 +13,7 @@ tags:
     - research
 ---
 
-Web of Science de-listed (stopped indexing) 82 journals because of essentially [predatory practices](https://predatoryreports.org/news/f/web-of-science-de-listed-82-journal-including-15-from-hindawi), including some long-suspected publishers (like **Hindawi** with 15 journals) and more established publishers (like **Routledge Journals, Taylor &amp; Francis LTD** with 4). A full list with details of the journals is available in this [Google Sheet](https://docs.google.com/spreadsheets/d/1L-y_mTobxMaUsJSHltxqY2VabCsLbNkcWhAS_nbimH8/htmlview#gid=200666333).
+Web of Science de-listed (stopped indexing) 82 journals because of essentially [predatory practices](https://web.archive.org/web/20230405155508/https://predatoryreports.org/news/f/web-of-science-de-listed-82-journal-including-15-from-hindawi), including some long-suspected publishers (like **Hindawi** with 15 journals) and more established publishers (like **Routledge Journals, Taylor &amp; Francis LTD** with 4). A full list with details of the journals is available in this [Google Sheet](https://docs.google.com/spreadsheets/d/1L-y_mTobxMaUsJSHltxqY2VabCsLbNkcWhAS_nbimH8/htmlview#gid=200666333).
 
 The [original Clarivale](https://clarivate.com/blog/supporting-integrity-of-the-scholarly-record-our-commitment-to-curation-and-selectivity-in-the-web-of-science/) (owners of Web of Science) post covers some more detail:
 

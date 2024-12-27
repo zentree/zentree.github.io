@@ -117,7 +117,7 @@ early_8 %>%
   left_join(base_pedigree, by = c('family' = 'genotype'))  -> both
 ```
 
-Some (many, most?) people may disagree with [my use of right assign](/2014/11/left-to-right/), which I love. Surely one could use either left assign or `%<>%` from the maggrittr package. By the way, why do I have to explicitely load magrittr (instead of relying on tidyverse) to access `%<>%`?
+Some (many, most?) people may disagree with [my use of right assign](/2014/11/27/left-to-right/), which I love. Surely one could use either left assign or `%<>%` from the maggrittr package. By the way, why do I have to explicitely load magrittr (instead of relying on tidyverse) to access `%<>%`?
 
 And this is how I go about learning new things: lots of false starts, often working with small examples (I used a few to check how `left_join` was working), lots of searching for explanations/tutorials (thanks to everyone who has written them) and asking in Twitter. If you are just starting programming, in any language, do not feel intimidated by cool looking code; most of the time it took many iterations to get it looking like that.
 

@@ -19,7 +19,7 @@ tags:
 
 Disappeared for a while collecting frequent flyer points. In the process I ‘discovered’ that I live [in the middle of nowhere](https://maps.google.co.nz/maps?q=Christchurch,+Canterbury&hl=en&ll=-43.580391,172.617188&spn=171.212657,59.0625&sll=-43.068888,171.914063&sspn=171.285878,59.0625&oq=chris&hnear=Christchurch,+Canterbury&t=m&z=2), as it took me 36 hours to reach my conference destination (Estoril, Portugal) through Christchurch, Sydney, Bangkok, Dubai, Madrid and Lisbon.
 
-Where was I? Showing how [split-plots look like under the bonnet](/2012/06/split-plot-1-how-does-a-linear-mixed-model-look-like/) (hood for you US readers). Yates presented a nice diagram of his oats data set in the paper, so we have the spatial location of each data point which permits us playing with within-trial spatial trends.
+Where was I? Showing how [split-plots look like under the bonnet](/2012/06/25/split-plot-1-how-does-a-linear-mixed-model-look-like/) (hood for you US readers). Yates presented a nice diagram of his oats data set in the paper, so we have the spatial location of each data point which permits us playing with within-trial spatial trends.
 
 Rather than mucking around with typing coordinates we can rely on Kevin Wright’s version of the oats dataset contained in the [agridat package](http://cran.r-project.org/web/packages/agridat/index.html). Kevin is a man of mystery, a James Bond of statisticians—so he keeps a low profile—with a keen interest in experimental design and analyses. This chap has put a really nice collection of data sets WITH suggested coding for the analyses, including nlme, lme4, asreml, MCMCglmm and a few other bits and pieces. Recommended!
 
@@ -27,7 +27,7 @@ Plants ([triffids](http://en.wikipedia.org/wiki/Triffid) excepted) do not move, 
 
 ![Gratuitous picture: Detail of Mosteiro dos Jerónimos, Belém, Lisboa.](/assets/images/gargoyle.jpg)
 
-There are a few ways to model environmental trends (AR processes, simple polynomials, splines, etc) that can be accounted for either through the G matrix (as random effects) or the R matrix. See previous post for explanation of the bits and pieces. We will use here a very popular approach, which is to consider two separable (so we can estimate the bloody things) autoregressive processes, one for rows and one for columns, to model spatial association. In addition, we will have a spatial residual. In summary, the residuals have moved from $$\mathbf{R} = \sigma^2_e \mathbf{I}$$ to $$\mathbf{R} = \sigma^2_s \mathbf{R}_{col} \otimes \mathbf{R}_{row}$$. I previously showed the general form of this autoregressive matrices [in this post](/2011/10/covariance-structures/), and you can see the $$\mathbf{R}_{col}$$ matrix below. In some cases we can also add an independent residual (the so-called nugget) to the residual matrix.
+There are a few ways to model environmental trends (AR processes, simple polynomials, splines, etc) that can be accounted for either through the G matrix (as random effects) or the R matrix. See previous post for explanation of the bits and pieces. We will use here a very popular approach, which is to consider two separable (so we can estimate the bloody things) autoregressive processes, one for rows and one for columns, to model spatial association. In addition, we will have a spatial residual. In summary, the residuals have moved from $$\mathbf{R} = \sigma^2_e \mathbf{I}$$ to $$\mathbf{R} = \sigma^2_s \mathbf{R}_{col} \otimes \mathbf{R}_{row}$$. I previously showed the general form of this autoregressive matrices [in this post](/2011/10/27/covariance-structures/), and you can see the $$\mathbf{R}_{col}$$ matrix below. In some cases we can also add an independent residual (the so-called nugget) to the residual matrix.
 
 We will first fit a split-plot model considering spatial residuals using `asreml` because, let’s face it, there is no other package that will give you the flexibility:
 
@@ -134,7 +134,7 @@ summary(m4)
 # R!row.cor       0.999000000     0.99900         NA       NA      Fixed
 ``` 
 
-So we have to build an autoregressive correlation matrix for rows, one for columns and multiply the whole thing for a spatial variance. Then we can add an independent residual (the nugget, if we want—and can estimate—one). Peter Dalgaard has [neat code](http://tolstoy.newcastle.edu.au/R/e2/help/07/05/16585.html) for building the autocorrelation matrix. And going back to [the code in the previous post](/2012/06/split-plot-1-how-does-a-linear-mixed-model-look-like/):
+So we have to build an autoregressive correlation matrix for rows, one for columns and multiply the whole thing for a spatial variance. Then we can add an independent residual (the nugget, if we want—and can estimate—one). Peter Dalgaard has [neat code](http://tolstoy.newcastle.edu.au/R/e2/help/07/05/16585.html) for building the autocorrelation matrix. And going back to [the code in the previous post](/2012/06/25/split-plot-1-how-does-a-linear-mixed-model-look-like/):
 
 ```r
 ar.matrix <- function(ar, dim) {

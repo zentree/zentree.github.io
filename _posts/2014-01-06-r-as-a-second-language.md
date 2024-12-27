@@ -17,7 +17,7 @@ tags:
 
 Imagine that you are studying English as a second language; you learn the basic rules, some vocabulary and start writing sentences. After a little while, it is very likely that you’ll write grammatically correct sentences that no native speaker would use. You’d be following the formalisms but ignoring culture, idioms, slang and patterns of effective use.
 
-[R is a language](/2012/01/r-is-a-language/) and any newcomers, particularly if they already know another programming language, will struggle at the beginning to get what is beyond the formal grammar and vocabulary. I use R [for inquisition](/2012/12/r-for-inquisition/): testing ideas, data exploration, visualization; under this setting, the easiest is to perform a task the more likely is one going to do it. It is possible to use several other languages for this but—and I think this is an important but—R’s brevity reduces the time between thinking and implementation, so we can move on and keep on trying new ideas<sup>†</sup>.
+[R is a language](/2012/01/11/r-is-a-language/) and any newcomers, particularly if they already know another programming language, will struggle at the beginning to get what is beyond the formal grammar and vocabulary. I use R [for inquisition](/2012/12/22/r-for-inquisition/): testing ideas, data exploration, visualization; under this setting, the easiest is to perform a task the more likely is one going to do it. It is possible to use several other languages for this but—and I think this is an important but—R’s brevity reduces the time between thinking and implementation, so we can move on and keep on trying new ideas<sup>†</sup>.
 
 A typical example is when we want to repeat something or iterate over a collection of elements. In most languages if one wants to do something many times the obvious way is using a loop (coded like, `for()` or `while()`). It is *possible* to use a `for()` loop in R but many times is the wrong tool for the job, as it increases the lag between thought and code, moving us away from ‘the flow’.
 
@@ -80,7 +80,7 @@ resMatrix
 #[10,]  2.8    3
 ```
 
-[How apply loops around a matrix or data frame, doing its business for all rows [1] or columns [2] (Shaky handwriting and all).](/assets/images/flow.jpeg)
+![How apply loops around a matrix or data frame, doing its business for all rows [1] or columns [2] (Shaky handwriting and all).](/assets/images/flow.jpeg)
 
 One of the distinctive features of R is that there is already a lot of functionality available for jobs that occur frequently in data analysis. The easiest is to perform a task the more likely is one going to do it, which is perfect if one is exploring/thinking about data.
 

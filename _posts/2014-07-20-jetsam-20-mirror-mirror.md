@@ -15,4 +15,4 @@ tags:
     - photos
 ---
 
-![Mirror mirror: reflection on reflection](/assets/images/mirrormirror-1024x576.jpg)
+![Mirror mirror: reflection on reflection](/assets/images/mirrormirror.jpg)

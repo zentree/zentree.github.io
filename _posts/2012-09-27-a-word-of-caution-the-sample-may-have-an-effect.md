@@ -15,7 +15,7 @@ tags:
     - stats
 ---
 
-This week I’ve tried to i-stay mostly in the descriptive statistics realm and ii-surround any simple(istic) models with caveats and pointing that they are *very* preliminary. We are working with a sample of ~1,000 schools that did reply to Fairfax’s request, while there is a number of schools that either ignored the request or told Fairfax to go and F themselves. Why am I saying this? If one goes and gets a simple table of the number of schools by type and decile there is something quite interesting: we have different percentages for different types of schools represented in the sample and the possibility of bias on the reporting to Fairfax, due to potential low performance (references to datasets correspond to the ones I used [in this post](https://luis.apiolaza.net/2012/09/updating-and-expanding-new-zealand-school-data/)):
+This week I’ve tried to i-stay mostly in the descriptive statistics realm and ii-surround any simple(istic) models with caveats and pointing that they are *very* preliminary. We are working with a sample of ~1,000 schools that did reply to Fairfax’s request, while there is a number of schools that either ignored the request or told Fairfax to go and F themselves. Why am I saying this? If one goes and gets a simple table of the number of schools by type and decile there is something quite interesting: we have different percentages for different types of schools represented in the sample and the possibility of bias on the reporting to Fairfax, due to potential low performance (references to datasets correspond to the ones I used [in this post](/2012/09/25/updating-and-expanding-new-zealand-school-data/)):
 
  ```r
 summary(standards$school.type)

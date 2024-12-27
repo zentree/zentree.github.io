@@ -20,7 +20,7 @@ A clear awareness of trade-offs between: traits, genetic evaluation options, dep
 
 A database system that contains all the data.
 
-A well-documented genetic evaluation system: we can rerun the evaluation and get exactly the same results. The system can be developed in-house or can use commercial software (like asreml, SAS, Bolt, etc) but the code must be available.
+A well-documented genetic evaluation system: we can rerun the evaluation and get exactly the same results. The system can be developed in-house or can use commercial software (like `asreml`, `SAS`, `Bolt`, etc) but the code must be available.
 
 Reproductive biology: essential to sort out the best deployment.
 

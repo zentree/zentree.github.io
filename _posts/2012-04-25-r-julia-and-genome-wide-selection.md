@@ -22,7 +22,7 @@ tags:
 — “*Sensu* cat?” I replied.  
 — “No. *Sensu* chicken” blurbed my now ex-friend.
 
-What was this about? He read my post on [R, Julia and the shiny new thing](https://luis.apiolaza.net/2012/04/12/r-julia-and-the-shiny-new-thing/), which prompted him to assume that I was the proverbial old dog unwilling (or was it unable?) to learn new tricks. (Incidentally, with friends like this who needs enemies? Hi, Gus.)
+What was this about? He read my post on [R, Julia and the shiny new thing](/2012/04/12/r-julia-and-the-shiny-new-thing/), which prompted him to assume that I was the proverbial old dog unwilling (or was it unable?) to learn new tricks. (Incidentally, with friends like this who needs enemies? Hi, Gus.)
 
 [![Having a look at different—statistical—horses, Canterbury.](/assets/images/horses.jpg "horses")](/assets/images/horses.jpg)
 

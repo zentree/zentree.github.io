@@ -91,7 +91,7 @@ Heinemann and collaborators then point out the following:
 
 However, that interpretation using all data assumes that both 'countries' are using GMO all the time. An interesting thing is that USA and Western Europe were in different trends <strong>already before the introduction of GM corn</strong>. We can state that because we have some idea of when GM crops were introduced in the USA. This information is collected by the US Department of Agriculture in their June survey to growers and made <a href="http://www.ers.usda.gov/data-products/adoption-of-genetically-engineered-crops-in-the-us.aspx">publicly available</a> at the State level (<a href="/assets/uploads/GMcornPenetration.csv">GMcornPenetration.csv</a>):
 
-[Figure 2. GM corn percentage by state in the USA.](/assets/images/corn-penetration.png)
+![Figure 2. GM corn percentage by state in the USA.](/assets/images/corn-penetration.png)
 
 This graph tells us that by the year 2000 the percentage of planted corn was way below 50% in most corn producing states (in fact, it was 25% at the country level). From that time on we have a steady increase reaching over 80% for most states by 2008. Given this, it probably makes sense to assume that, at the USA level, yield reflects non-GM corn until 1999 and progressively reflects the effect of GM genotypes from 2000 onwards. This division is somewhat arbitrary, but easy to implement.
 
@@ -207,10 +207,10 @@ P.S.2 Time permitting I'll have a look at other crops later. I would have liked 
 
 P.S.3 I share some of Heinemann's concerns relating to subsidies and other agricultural practices.
 
-P.S.4 In case anyone is interested, I did write about a <a href="/2013/06/ordinal-logistic-gm-pigs/">GM-fed pigs study</a> not long ago.
+P.S.4 In case anyone is interested, I did write about a <a href="/2013/06/14/ordinal-logistic-gm-pigs/">GM-fed pigs study</a> not long ago.
 
 P.S.5 2013-07-05 20:10 NZST. I updated Figures 1 and 3 to clearly express that yield was in hectograms/ha and recalculated average decade yield because it was originally averaging yields rather calculating total production and area for the decade and then calculating average yield. The discussion points I raised are still completely valid.
 
 P.S.6 2013-07-07 11:30 NZST. The inclusion of <em>Canadian</em> canola does not make any sense because, as far as I know, Canada is not part of Western Europe or the US Midwest. This opens the inclusion of crops from any origin as far as the results are convenient for one's argument.
 
-P.S.7 2014-08-06 13:00 NZST My comment was expanded and published <a href="http://dx.doi.org/10.1080/14735903.2014.939842">in the journal</a> (or here for <a href="/2014/07/comment-on-sustainability-and-innovation-in-staple-crop-production-in-the-us-midwest/">HTML version</a> with comments on the authors' reply to my comment.
+P.S.7 2014-08-06 13:00 NZST My comment was expanded and published <a href="http://dx.doi.org/10.1080/14735903.2014.939842">in the journal</a> (or here for <a href="/2014/07/29/comment-on-sustainability-and-innovation-in-staple-crop-production-in-the-us-midwest/">HTML version</a> with comments on the authors' reply to my comment.

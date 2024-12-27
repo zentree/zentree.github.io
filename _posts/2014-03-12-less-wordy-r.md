@@ -109,4 +109,4 @@ summary(m1)
 
 This gives the regression coefficients for Corporate (3.45 - 1.564e-04 year) and Individual ([3.45 + 4.41] + [-1.564e-04 + 1.822e-04] year or 7.84 + 2.58e-05 year). As a bonus you get the comparison between regression lines.
 
-In [R as a second language](/2014/01/r-as-a-second-language/) I pointed out that 'brevity reduces the time between thinking and implementation, so we can move on and keep on trying new ideas'. Some times it seriously does.
+In [R as a second language](/2014/01/06/r-as-a-second-language/) I pointed out that 'brevity reduces the time between thinking and implementation, so we can move on and keep on trying new ideas'. Some times it seriously does.

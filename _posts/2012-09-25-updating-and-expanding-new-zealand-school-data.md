@@ -16,9 +16,9 @@ tags:
     - stats
 ---
 
-In two previous posts I [put together a data set](/2012/09/new-zealand-school-data/) and presented some [exploratory data analysis](/2012/09/new-zealand-school-performance-beyond-the-headlines/) on school achievement for national standards. After those posts I exchanged emails with a few people about the sources of data and Jeremy Greenbrook-Held pointed out [Education Counts](http://www.educationcounts.govt.nz/) as a good source of additional variables, including number of teachers per school and proportions for different ethnic groups.
+In two previous posts I [put together a data set](/2012/09/24/new-zealand-school-data/) and presented some [exploratory data analysis](/2012/09/24/new-zealand-school-performance-beyond-the-headlines/) on school achievement for national standards. After those posts I exchanged emails with a few people about the sources of data and Jeremy Greenbrook-Held pointed out [Education Counts](http://www.educationcounts.govt.nz/) as a good source of additional variables, including number of teachers per school and proportions for different ethnic groups.
 
-The code below call three files: [Directory-Schools-Current.csv](/assets/uploads/Directory-Schools-Current.csv), [teacher-numbers.csv](/assets/uploads/teacher-numbers.csv) and [SchoolReport_data_distributable.csv](/assets/uploads//SchoolReport_data_distributable.csv), which you can download from the links.
+The code below call three files: [Directory-Schools-Current.csv](/assets/uploads/Directory-Schools-Current.csv), [teacher-numbers.csv](/assets/uploads/teacher-numbers.csv) and [SchoolReport_data_distributable.csv](/assets/uploads/SchoolReport_data_distributable.csv), which you can download from the links.
 
 ```r
 options(stringsAsFactors = FALSE)
@@ -111,7 +111,7 @@ standards$prop.pacific <- with(standards, pacific.island/total.roll)
 standards$prop.asian <- with(standards, asian/total.roll)
 ```
 
-This updated data set is more comprehensive but it doesn't change the general picture presented in my previous post [beyond the headlines](/2012/09/new-zealand-school-performance-beyond-the-headlines/). Now we can get some cool graphs to point out the obvious, for example the large proportion of Maori and Pacific Island students in low decile schools:
+This updated data set is more comprehensive but it doesn't change the general picture presented in my previous post [beyond the headlines](/2012/09/24/new-zealand-school-performance-beyond-the-headlines/). Now we can get some cool graphs to point out the obvious, for example the large proportion of Maori and Pacific Island students in low decile schools:
 
 ```r
 qplot(prop.maori, prop.pacific,

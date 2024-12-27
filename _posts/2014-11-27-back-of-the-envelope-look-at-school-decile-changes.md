@@ -97,6 +97,6 @@ One consequence of the larger variability in small schools is that rural areas w
 
 Data files used for this post: [decile_changes_20142015](/assets/uploads/decile_changes_20142015.csv)</a> and [directory_school_current](/assets/uploads/directory_school_current.csv)
 
-Operational school funding is [much more complex](http://www.minedu.govt.nz/NZEducation/EducationPolicies/Schools/SchoolOperations/Resourcing/ResourcingHandbook/Chapter1/Appendices/Appendix1OperationalFundingRates.aspx) than deciles, as it includes allocations depending on number of students, use of Maori language, etc.
+Operational school funding is much more complex than deciles, as it includes allocations depending on number of students, use of Māori language, etc.
 
-P.S. Stephen Senn highlights an obvious problem with the language the Ministry uses: there are 9 deciles (the points splitting the distribution into 10 parts). We should be talking about tenths, a much simpler word, instead of deciles.</p>
+P.S. Stephen Senn highlights an obvious problem with the language the Ministry uses: there are 9 deciles (the points splitting the distribution into 10 parts). We should be talking about tenths, a much simpler word, instead of deciles.

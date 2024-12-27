@@ -15,4 +15,4 @@ tags:
     - photos
 ---
 
-![People queuing to buy meat skewers from a woman cooking them under a gazebo. There is a strong electric light creating high contrast, Christchurch.](/bbq.jpg)
+![People queuing to buy meat skewers from a woman cooking them under a gazebo. There is a strong electric light creating high contrast, Christchurch.](/assets/images/bbq.jpg)

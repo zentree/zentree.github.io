@@ -10,6 +10,7 @@ classic-editor-remember:
     - classic-editor
 image: /wp-content/uploads/2013/01/driers.jpg
 tags:
+    - aleph
     - programming
     - stats
 ---

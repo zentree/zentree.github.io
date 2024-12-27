@@ -17,7 +17,7 @@ tags:
     - meta
 ---
 
-Almost 3 years ago I posted my [computer setup](/2012/04/my-setup/) following the model introduced by The Setup. A few things have changed in the meantime and this time is as good as any for updating the list.
+Almost 3 years ago I posted my [computer setup](/2012/04/17/my-setup/) following the model introduced by The Setup. A few things have changed in the meantime and this time is as good as any for updating the list.
 
 ### Hardware
 

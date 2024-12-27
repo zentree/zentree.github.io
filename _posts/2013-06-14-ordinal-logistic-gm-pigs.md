@@ -88,6 +88,6 @@ P.S. There are many ways of running an analysis for this data set, but I’m in 
 
 P.S.2 2013-06-15 I often act as a reviewer for scientific journals. In the case of this article some of my comments would have included: the analysis does not use the structure of the data properly, the photographs of the damaged organs should include both types of diet for each inflammation class (or at least include the most representative diet for the class), and the authors should highlight that there are no significant differences between the two diets for animal health; that is, the trial provides evidence for no difference between feeds. I still feel that the authors should be more forthcoming on terms of disclosing potential conflicts of interest too, but that’s their decision.
 
-P.S.3 2013-07-04 I expand on aspects of the general research process [in this post](/2013/06/gm-fedpigs-chance-and-how-research-works/).
+P.S.3 2013-07-04 I expand on aspects of the general research process [in this post](/2013/06/21/gm-fedpigs-chance-and-how-research-works/).
 
 <small><sup>†</sup>Tongue-in-cheek, of course, and with reference to weeds. This blog mostly uses R, but I’m pushing myself to use lots of different software to ‘keep the language’. Now if I could only do this with Spanish.</small>

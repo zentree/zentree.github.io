@@ -10,6 +10,7 @@ classic-editor-remember:
     - block-editor
 image: /wp-content/uploads/2023/02/neovim.jpg
 tags:
+    - aleph
     - programming
 ---
 

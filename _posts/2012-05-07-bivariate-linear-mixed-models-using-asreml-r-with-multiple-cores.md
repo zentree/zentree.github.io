@@ -18,7 +18,7 @@ tags:
 
 A while ago I wanted to run a quantitative genetic analysis where the performance of genotypes in each site was considered as a different trait. If you think about it, with 70 sites and thousands of genotypes one is trying to fit a 70×70 additive genetic covariance matrix, which requires 70\*69/2 = 2,415 covariance components. Besides requiring huge amounts of memory and being subject to all sort of estimation problems there were all sort of connectedness issues that precluded the use of Factor Analytic models to model the covariance matrix. The best next thing was to run over 2,000 bivariate analyses to build a large genetic correlation matrix (which has all sort of issues, I know). This meant leaving the computer running for over a week.
 
-In another unrelated post, Kevin asked [about this post](/2012/02/rstudio-and-asreml-working-together-in-a-mac) if I have ever considered using ASReml-R to run in parallel using a computer with multiple cores. Short answer, I haven’t, but there is always a first time.
+In another unrelated post, Kevin asked [about this post](/2012/02/06/rstudio-and-asreml-working-together-in-a-mac) if I have ever considered using ASReml-R to run in parallel using a computer with multiple cores. Short answer, I haven’t, but there is always a first time.
 
 ```r
 library(asreml) # Multivariate mixed models

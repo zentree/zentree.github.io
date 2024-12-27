@@ -27,6 +27,6 @@ This situation creates funny incentives: OA publishing in journals run by big pu
   
 Today I was left with the horrible feeling that we are burning money for no clear purpose in the current publication environment. We could easily pay for better PhD scholarships or postdoc salaries with that money, although is not available for those purposes. We can only use it to keep on feeding publishers with insanely high profit rates. Crazy.  
   
-Anyway, if you are interested in essential oils from eucalypts, [read the article](https://www.tandfonline.com/doi/full/10.1080/00049158.2023.2270681). I mentioned this work [before](https://luis.apiolaza.net/2023/11/15/essentially/) but now comes with fresh, shiny, cineole-smelling page numbers. Either that or the article smells like burning money.
+Anyway, if you are interested in essential oils from eucalypts, [read the article](https://www.tandfonline.com/doi/full/10.1080/00049158.2023.2270681). I mentioned this work [before](/2023/11/15/essentially/) but now comes with fresh, shiny, cineole-smelling page numbers. Either that or the article smells like burning money.
 
 ![The Joker staring at piles of money burning.](/assets/images/on_fire.jpg)

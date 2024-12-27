@@ -1,7 +1,8 @@
+{% unless post.tags contains "aleph" %}
 <li>
   <a href="{{ post.url | absolute_url }}" class="post-link">
     <div class="post-link__heading">
-      {% unless post.title == "" %}
+      
           <h1 class="post-link__title">      
             {{ post.title }}
           </h1>
@@ -9,17 +10,21 @@
           {% if post.tags contains "photos" %}
             [◉¯] 
           {% elsif post.tags contains "quotes" %}
-            "皿" 
+            皿
+          {% elsif post.tags contains "sounds" %}
+            ♬♪ 
           {% else% }
             {% include post-excerpt.html %}
           {% endif %}
-      {% endunless %}
-      {% if post.title != "" and site.show_excerpts == true %}
-        {% include post-excerpt.html %}
-      {% endif %}
+
+          
+          {% include post-excerpt.html %}
+          
+      
     </div>
     <span class="post-date">
       {{ post.date | date: "%-d %b, '%y" }}
     </span>
   </a>
 </li>
+{% endunless %}

@@ -17,7 +17,7 @@ tags:
     - stats
 ---
 
-One of the main uses for R is for [exploration and learning](/2012/12/r-for-inquisition/). Let’s say that I wanted to learn simple linear regression (the bread and butter of statistics) and see how the formulas work. I could simulate a simple example and fit the regression with R:
+One of the main uses for R is for [exploration and learning](/2012/12/22/r-for-inquisition/). Let’s say that I wanted to learn simple linear regression (the bread and butter of statistics) and see how the formulas work. I could simulate a simple example and fit the regression with R:
 
 ```R
 library(arm)  # For display() 
@@ -127,7 +127,7 @@ F77_CALL(dqrls)(REAL(qr), &n, &p, REAL(y), &ny, &rtol,
 
 which is a highly tuned routine for [QR decomposition](https://en.wikipedia.org/wiki/QR_decomposition) in a linear algebra library. By now we know that the general matrix expression produces the same as our initial formula, and that the R `lm()` function does not use a matrix inverse but QR decomposition to solve the system of equations.
 
-One of the beauties of R is that brought the power of statistical computing [to the masses](/2011/12/r-academia-and-the-democratization-of-statistics/), by not only letting you fit models but also having a peek at how things are implemented. As a user, I <em>don't need to know</em> that there is a chain of function calls initiated by my bread-and-butter linear regression. But it is comforting to the nerdy me, that <em>I can have a quick look</em> at that.
+One of the beauties of R is that brought the power of statistical computing [to the masses](/2011/12/12/r-academia-and-the-democratization-of-statistics/), by not only letting you fit models but also having a peek at how things are implemented. As a user, I <em>don't need to know</em> that there is a chain of function calls initiated by my bread-and-butter linear regression. But it is comforting to the nerdy me, that <em>I can have a quick look</em> at that.
 
 All this for free, which sounds like a very good deal to me.
 

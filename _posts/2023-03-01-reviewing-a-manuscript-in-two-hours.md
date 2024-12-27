@@ -29,7 +29,7 @@ I see my job as judging the plausibility of the manuscript. Does it make sense? 
 
 As I have only 2 hours, I won’t take on a manuscript that requires fighting with the writing to figure out what’s going on. I will spend longer, some times much longer if I am reading and evaluating the work of students, but not for a random person in internet.
 
-I don’t like the current publication system, which is a part of a larger system that feels like a pyramid scheme. The incentives are wrong, we are pushing people to publish too much, there are many more people trying to publish and their careers depend on making it in a system with a false sense of scarcity: there should be no more page limits for an “issue”.
+I don’t like the current publication system, which is a part of a larger system that feels like [a pyramid scheme](/2024/06/06/are-phds-a-pyramid-scheme/). The incentives are wrong, we are pushing people to publish too much, there are many more people trying to publish and their careers depend on making it in a system with a false sense of scarcity: there should be no more page limits for an “issue”.
 
 Someone may say, but 2 hours is not long enough to “properly review” a manuscript. Well, these are my rules, if you don’t like them… tough luck.
 

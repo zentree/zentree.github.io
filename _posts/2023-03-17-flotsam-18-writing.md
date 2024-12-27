@@ -10,6 +10,7 @@ classic-editor-remember:
     - block-editor
 image: /wp-content/uploads/2014/04/scaffolding.jpg
 tags:
+    - aleph
     - writing
 ---
 

@@ -16,7 +16,7 @@ tags:
     - stats
 ---
 
-Following [my post](/2013/06/ordinal-logistic-gm-pigs/) on GM-fed pigs I received several comments, mostly through Twitter. Some people liked having access to an alternative analysis, while others replied with typical anti-GM slogans, completely ignoring that I was posting about the technical side of the paper. This post is not for the slogan crowd (who clearly are not interested in understanding), but for people that would like to know more about how one would evaluate claims from a scientific article. While I refer to the pig paper, most issues apply to any paper that uses statistics.
+Following [my post](/2013/06/14/ordinal-logistic-gm-pigs/) on GM-fed pigs I received several comments, mostly through Twitter. Some people liked having access to an alternative analysis, while others replied with typical anti-GM slogans, completely ignoring that I was posting about the technical side of the paper. This post is not for the slogan crowd (who clearly are not interested in understanding), but for people that would like to know more about how one would evaluate claims from a scientific article. While I refer to the pig paper, most issues apply to any paper that uses statistics.
 
 In general, researchers want to isolate the effect of the treatments under study (diets in this case) from any other extraneous influence. We want *control* over the experimental conditions, so we can separate the effects of interest from all other issues that could create differences between our experimental units (pigs in this case). What could create ‘noise’ in our results? Animals could have different genetic backgrounds (for example with different parents), they could be exposed to different environmental conditions, they could be treated differently (more kindly or harshly), etc.
 
@@ -42,7 +42,7 @@ The comic below presents a brief example with jelly beans assuming that we claim
 
 In the pig paper there are 8 tests in Table 2, 18 (or 15 with some value) in Table 3, 8 in Table 4 and 17 in Table 5 for a total of 49 (or 46 with some testable values). In fact **one would expect to find a couple of significant results** (at 0.05 or 1 in 20) by chance even if there are absolutely no differences in reality.
 
-Add to this that many of the tests are unnecessary, because they are performing the wrong type of analysis. For example, there are four separate analyses for stomach inflammation; however, the analysis ignores the type of variable one is testing as I point out [in a previous post](/2013/06/ordinal-logistic-gm-pigs/).
+Add to this that many of the tests are unnecessary, because they are performing the wrong type of analysis. For example, there are four separate analyses for stomach inflammation; however, the analysis ignores the type of variable one is testing as I point out [in a previous post](/2013/06/14/ordinal-logistic-gm-pigs/).
 
 This is why, if I were Monsanto, I would use the paper as evidence supporting the idea that there is no difference between the two diets:
 

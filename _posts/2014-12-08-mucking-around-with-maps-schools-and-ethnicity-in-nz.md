@@ -73,7 +73,7 @@ spplot(cau, zcol = "hn", xlim = c(1540000, 1590000),
 
 And we get a plot like this:
 
-[Ethnic diversity in schools at the Census Area Unit level (0 very diverse, 1 not diverse at all).](/assets/images/school_diversity.png)
+![Ethnic diversity in schools at the Census Area Unit level (0 very diverse, 1 not diverse at all).](/assets/images/school_diversity.png)
 
 
 Just because it is Monday down under.

@@ -15,7 +15,7 @@ tags:
     - breeding
 ---
 
-At first, the question may sound strange. You have been collecting data, running analyses using various acronyms (PBLUP, GBLUP, HBLUP, …), in a univariate/multivariate fashion, using ad-hoc or commercial software (asreml-R, Bolt, …), generating a long list of numbers sorted from highest to lowest.
+At first, the question may sound strange. You have been collecting data, running analyses using various acronyms (`PBLUP`, `GBLUP`, `HBLUP`, …), in a univariate/multivariate fashion, using ad-hoc or commercial software (`asreml-R`, `Bolt`, …), generating a long list of numbers sorted from highest to lowest.
 
 The list was uploaded to a website (or a printed catalogue) but YOU are now in a meeting talking with industry producers and someone is reading the list, looking for the genotypes (families, clones, varieties) they used before. Unsurprising to you, but annoying to them the breeding values of their favourite genotypes are lower than in a previous year.
 

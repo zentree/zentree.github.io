@@ -40,6 +40,6 @@ my.drop
 
 The problem with the code is the comparison `!(id %in% my.drop)`, as it includes the factor `student.code`, so when R makes the comparison checking if a record is in my.drop it converts the text, e.g. ‘mjl159’, to the number of level, e.g. 41, which makes the code to delete ONE MORE observation (in this #41) on top of the ones the student was allocated. This happens only for some students, where the number of level is not included in the list of observations to drop.
 
-This is another version of [R pitfall #3: friggin’ factors](/2011/12/r-pitfall-3-friggin-factors/). A simple workaround is to change the comparison to `!(id %in% my.drop[2:6])`. I should know better than this.
+This is another version of [R pitfall #3: friggin’ factors](/2011/12/15/r-pitfall-3-friggin-factors/). A simple workaround is to change the comparison to `!(id %in% my.drop[2:6])`. I should know better than this.
 
 ![Gratuitous image: Tree spread on metal frame to provide shade in a plaza, Lisbon, Portugal. Some days I would love to have a coffee there without computer, just watching the world pass by.](/assets/images/treesinsquare2.jpg)

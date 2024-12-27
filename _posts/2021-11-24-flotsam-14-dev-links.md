@@ -10,6 +10,7 @@ classic-editor-remember:
     - block-editor
 image: /wp-content/uploads/2021/11/cacti.jpg
 tags:
+    - aleph
     - programming
 ---
 

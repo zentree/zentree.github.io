@@ -18,7 +18,7 @@ tags:
 
 December and January were crazy months, with a lot of travel and suddenly I found myself in February working in four parallel projects involving quantitative genetics data analyses. (I’ll write about some of them very soon)
 
-Anyhow, as I have pointed out [in repeated occasions](/tags/asreml/), I prefer asreml-R for mixed model analyses because I run out of functionality with nlme and lme4 very quickly. Ten-trait multivariate mixed model with a pedigree, anyone? I thought so. Well, there are asreml-R versions for Windows, Linux and OS X; unsurprisingly, I use the latter. Installation in OS X is not particularly complicated (just follow the instructions [in this PDF](http://www.mmontap.org/sites/default/files/install-asreml-R.pdf) file) and remember to add and export the following environment variables in your `.bash_profile`:
+Anyhow, as I have pointed out [in repeated occasions](/tags/asreml/), I prefer asreml-R for mixed model analyses because I run out of functionality with nlme and lme4 very quickly. Ten-trait multivariate mixed model with a pedigree, anyone? I thought so. Well, there are asreml-R versions for Windows, Linux and OS X; unsurprisingly, I use the latter. Installation in OS X is not particularly complicated (just follow the instructions [in this PDF](https://web.archive.org/web/20150917033439/http://www.mmontap.org/sites/default/files/install-asreml-R.pdf) file) and remember to add and export the following environment variables in your `.bash_profile`:
 
 ```
 # Location of license file, usually installed

@@ -87,7 +87,7 @@ ranef(m3)
 #9  3.82479236
 ```
 
-[Data 'adjusted' by fixed effects. The random intercepts would be lines going through the average of points for each individual.](/assets/images/adjusted-data.png)
+![Data 'adjusted' by fixed effects. The random intercepts would be lines going through the average of points for each individual.](/assets/images/adjusted-data.png)
 
 The random effects for individual or, better, the individual-level intercepts are pretty much the lines going through the middle of the points for each individual. Furthermore, the variance for <code>ind</code> is the variance of the random intercepts around the 'adjusted' values, which can be seen comparing the variance of random effects above (~7.15) with the result below (~7.13).
 

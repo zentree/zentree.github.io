@@ -92,7 +92,7 @@ coef(m1, pattern = 'dad')
 #dad_5 -1.337879
 ```
 
-How is the matrix overlay working? We can replicate the calculations used by ASReml by building the matrices from scratch and reusing the variance components, so we avoid the nastiness of writing code for residual maximum likelihood. Once I build the basic matrices I use the code from my <a href="/2012/06/split-plot-1-how-does-a-linear-mixed-model-look-like/">How does a linear mixed model look like?</a> post.
+How is the matrix overlay working? We can replicate the calculations used by ASReml by building the matrices from scratch and reusing the variance components, so we avoid the nastiness of writing code for residual maximum likelihood. Once I build the basic matrices I use the code from my [How does a linear mixed model look like?](/2012/06/25/split-plot-1-how-does-a-linear-mixed-model-look-like/) post.
 
 ```r
 # Building incidence matrices for males and females

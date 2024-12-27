@@ -10,6 +10,7 @@ classic-editor-remember:
     - block-editor
 image: /wp-content/uploads/2023/01/Literature_Clock.jpg
 tags:
+    - aleph
     - bayesian
     - stats
     - writing

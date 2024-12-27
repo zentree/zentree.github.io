@@ -15,10 +15,10 @@ image: /wp-content/uploads/2011/12/meaty.jpg
 tags:
     - bayesian
     - books
-    - statistics
+    - stats
 ---
 
-About a month ago [I was discussing](/2011/11/if-you-are-writing-a-book-on-bayesian-statistics/) the approach that I would like to see in introductory Bayesian statistics books. In that post I mentioned a PDF copy of [Doing Bayesian Data Analysis](https://www.librarything.com/work/10737618) by [John K. Kruschke](https://psych.indiana.edu/directory/faculty/kruschke-john.html) and that I have ordered the book. Well, recently a parcel was waiting in my office with a spanking new, real paper copy of the book. A few days are not enough to provide a ‘proper’ review of the book but I would like to discuss my first impressions about the book, as they could be helpful for someone out there.
+About a month ago [I was discussing](/2011/11/24/if-you-are-writing-a-book-on-bayesian-statistics/) the approach that I would like to see in introductory Bayesian statistics books. In that post I mentioned a PDF copy of [Doing Bayesian Data Analysis](https://www.librarything.com/work/10737618) by [John K. Kruschke](https://psych.indiana.edu/directory/faculty/kruschke-john.html) and that I have ordered the book. Well, recently a parcel was waiting in my office with a spanking new, real paper copy of the book. A few days are not enough to provide a ‘proper’ review of the book but I would like to discuss my first impressions about the book, as they could be helpful for someone out there.
 
 If I were looking for a single word to define the word it would be meaty, not on the “having the flavor or smell of meat” sense of the word as pointed out by Newton, but on the conceptual side. Kruschke has clearly put a lot of thought on how to draw a generic student with little background on the topic to start thinking of statistical concepts. In addition Kruschke clearly loves language and has an interesting, sometimes odd, sense of humor; anyway, Who am I to comment on someone else’s strange sense of humor?
 

@@ -37,6 +37,6 @@ At the end of the day I am ambivalent about FAWR. On the one hand, it is possibl
 
 **P.S.** This review was published with minor changes as “Apiolaza, L.A. 2012. Andrew P. Robinson, Jeff D. Hamann: Forest Analytics With R: An Introduction. Springer, 2011. ISBN 978-1-4419-7761-8. xv+339 pp. Journal of Agricultural, Biological and Environmental Statistics 17(2): 306-307” (DOI: [10.1007/s13253-012-0093-y](http://www.springerlink.com/content/c48633604v8k1r26/)).
 
-P.S.2. 2012-05-31. After publishing this text I discovered that I already used the sentence “\[f\]orestry deals with variability and variability is the province of statistics” in a [blog post](https://luis.apiolaza.net/2011/10/22/teaching-with-r-the-switch/) in 2009.
+P.S.2. 2012-05-31. After publishing this text I discovered that I already used the sentence “\[f\]orestry deals with variability and variability is the province of statistics” in a [blog post](/2011/10/22/teaching-with-r-the-switch/) in 2009.
 
 P.S.3. 2012-05-31. I first heard the saying “forestry deals with an ocean of knowledge, but only one centimeter deep” around 1994 in a presentation by [Oscar García](https://www.researchgate.net/profile/Oscar-Garcia-71) in Valdivia, Chile.

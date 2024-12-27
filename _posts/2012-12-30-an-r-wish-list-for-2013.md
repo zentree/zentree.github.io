@@ -15,9 +15,9 @@ tags:
     - stats
 ---
 
-First go and read [An R wish list for 2012](/2011/12/an-r-wish-list-for-2012/). None of the wishes came through in 2012. Fix the R website? No, it is the same this year. In fact, it is [the same as in 2005](http://web.archive.org/web/20050101020515/http://www.r-project.org/). Easy to find help? Sorry, next year. Consistency and sane defaults? Coming soon to a theater near you (one day). Thus my wish list for 2012 is, very handy, still the wish list for 2013.
+First go and read [An R wish list for 2012](/2011/12/26/an-r-wish-list-for-2012/). None of the wishes came through in 2012. Fix the R website? No, it is the same this year. In fact, it is [the same as in 2005](http://web.archive.org/web/20050101020515/http://www.r-project.org/). Easy to find help? Sorry, next year. Consistency and sane defaults? Coming soon to a theater near you (one day). Thus my wish list for 2012 is, very handy, still the wish list for 2013.
 
- ## R as social software
+## R as social software
 
 The strength of R is not the software itself, but the community surrounding the software. Put another way, there are several languages that could offer the core functionality, but the whole ‘ecosystem’ that’s another thing. Innovation is (mostly) happening outside the core.
 

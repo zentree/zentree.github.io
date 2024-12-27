@@ -19,7 +19,7 @@ tags:
 
 Eric and I have been exchanging emails about potential analyses for the school data and he published [a first draft model](http://offsettingbehaviour.blogspot.co.nz/2012/09/education-regressions.html) in Offsetting Behaviour. I have kept on doing mostly data exploration while we get a definitive full dataset, and looking at some of the pictures I thought we could present a model with fewer predictors.
 
-The starting point is the `standards` dataset I created [in the previous post](https://luis.apiolaza.net/2012/09/updating-and-expanding-new-zealand-school-data/):
+The starting point is the `standards` dataset I created [in the previous post](/2012/09/25/updating-and-expanding-new-zealand-school-data/):
 
 ```r
 # Make authority a factor

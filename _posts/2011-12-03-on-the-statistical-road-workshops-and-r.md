@@ -9,7 +9,7 @@ permalink: /2011/12/03/on-the-statistical-road-workshops-and-r/
 classic-editor-remember:
     - classic-editor
     - classic-editor
-categories:
+tags:
     - stats
 ---
 

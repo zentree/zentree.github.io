@@ -11,6 +11,6 @@ tags:
     - meta
 ---
 
-I am all the time reading and taking notes in bits and pieces of paper, that inevitably I lose. They are too small to include in my main blog. So I just created the Aleph (thinking of Jorge Luis Borges’ story) as a [memex](https://en.wikipedia.org/wiki/Memex): as an open Borgesian memex. Get it?
+I am all the time reading and taking notes in bits and pieces of paper, that inevitably I lose. They are too small to include in my main blog. So I just created the [Aleph](/tags/aleph/) (thinking of Jorge Luis Borges’ story) as a [memex](https://en.wikipedia.org/wiki/Memex): as an open Borgesian memex. Get it?
 
 Inspiration to do this: Cory Doctorow’s Pluralistic ([explained](https://craphound.com/news/2021/05/23/the-memex-method/) in his podcast) and Warren Ellis’ [Writer’s Notebook](https://warrenellis.ltd).

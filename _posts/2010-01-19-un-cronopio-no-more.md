@@ -10,6 +10,7 @@ classic-editor-remember:
     - block-editor
 image: /wp-content/uploads/2010/01/uncronopio_logo.jpg
 tags:
+    - meta
     - writing
 ---
 

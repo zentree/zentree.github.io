@@ -13,6 +13,7 @@ cybocfi_hide_featured_image:
     - 'yes'
 image: /wp-content/uploads/2012/01/DSCN0078.jpg
 tags:
+    - aleph
     - bayesian
     - stats
 ---

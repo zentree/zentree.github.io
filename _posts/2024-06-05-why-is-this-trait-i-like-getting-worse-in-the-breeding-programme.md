@@ -20,6 +20,6 @@ A longer answer: in breeding there is a distinction between objective traits (wh
 
 Some of the confusion may come from when people like a selection criterion (like wood density) and think the breeding programme is trying to improve that. In this example, we weren’t (at least at that time). We cared about volume and stiffness. Sacrificing levels of some selection criterion while pursuing the objective traits is perfectly fine if I am maximising value. And in a modern breeding programme you are pretty much always looking at value, not at a single trait.
 
-If you find this interesting, you may also like [Why did my breeding values go down?](https://luis.apiolaza.net/2023/11/30/why-did-my-breeding-values-go-down/)
+If you find this interesting, you may also like [Why did my breeding values go down?](/2023/11/30/why-did-my-breeding-values-go-down/)
 
 ![Windowless seat at the back of the plane.](/assets/images/windowless.jpeg)

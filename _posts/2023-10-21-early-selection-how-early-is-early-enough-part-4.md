@@ -14,7 +14,7 @@ tags:
     - research
 ---
 
-In the previous post we were able to screen trees for wood properties at 2 years of age, separating normal and compression wood by leaning the trees. We obtained genetic parameters, breeding values, etc. However, we also discovered that planting the trees directly in the ground was still subject to too much environmental variability. So, take a guess… we planted another trial.
+In the [previous post](/2023/10/17/early-selection-how-early-is-early-enough-part-3/) we were able to screen trees for wood properties at 2 years of age, separating normal and compression wood by leaning the trees. We obtained genetic parameters, breeding values, etc. However, we also discovered that planting the trees directly in the ground was still subject to too much environmental variability. So, take a guess… we planted another trial.
 
 This time we had 90 families and 10 clones, for a total of 3,000 trees growing in 75 litre bags, leaning, with slow-release fertiliser, an irrigation system. Not only that, but we tested 3 different populations: clonal (derived from trees selected at ‘traditional’ 8 years of age for growth and stiffness), seed orchard (derived from trees selected at ‘traditional’ 8 years of age for growth and basic density), and new selections (selected for a combination of traits).
 

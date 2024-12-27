@@ -10,9 +10,8 @@ classic-editor-remember:
     - classic-editor
     - classic-editor
 tags:
-    - 'genetically modified'
+    - breeding
     - research
-    - teaching
 ---
 
 The media in New Zealand [briefly](http://www.stuff.co.nz/national/6735584/Hundreds-of-GM-trees-destroyed) [covered](http://www.sciencemediacentre.co.nz/2012/04/13/gm-pine-tree-trials-vandalised-experts-respond/) the destruction of a trial with genetically modified pines (*Pinus radiata* D. Don, vulgar name Radiata pine, Monterey pine) near Rotorua. This is [not the first time](http://www.stuff.co.nz/national/217214/Protesters-cut-down-GM-trial-pine-trees) that protesters destroy a trial, ignoring that they have been established following regulations from the [Environmental Protection Agency](http://www.epa.govt.nz/new-organisms/Pages/default.aspx). Most people have discussed this pseudo-religious vandalism either from the wasting resources (money, more importantly time, delays on publication for scientists, etc) or from the criminal activity points of view.

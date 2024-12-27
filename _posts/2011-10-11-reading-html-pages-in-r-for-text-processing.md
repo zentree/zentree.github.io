@@ -39,4 +39,4 @@ doc.text <- gsub('\n', ' ', doc.text)
 doc.text <- paste(doc.text, collapse = ' ')
 ```
 
-Incidentally, [babel.html](/2010/04/03/the-library-of-babel/) contains a translation of the short story 'The Library of Babel' by Jorge Luis Borges. Great story! We can repeat this process with several files and then create a corpus (and analyze it) using the `tm` package.
+Incidentally, [this page](/2010/04/03/the-library-of-babel/) contains a translation of the short story 'The Library of Babel' by Jorge Luis Borges. Great story! We can repeat this process with several files and then create a corpus (and analyze it) using the `tm` package.

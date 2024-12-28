@@ -21,9 +21,12 @@
 title: Palimpsest
 description: >- # this means to ignore newlines until "baseurl:"
   Evolving notes, images and sounds by Luis Apiolaza.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://zentree.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: ""                      # the subpath of your site, e.g. /blog
+url: "https://zentree.github.io" # base hostname & protocol
+site.icon: /assets/images/wunelfe-site-icon-270x270.png
+feed_icon: /assets/images/wunelfe-site-icon-270x270.png
 
+permalink: pretty
 
 # Build settings
 remote_theme: patdryburgh/hitchens
@@ -36,8 +39,8 @@ paginate_path: "/page/:num/"
 
 # Homepage settings
 show_excerpts: true
-
 page.author: false
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.

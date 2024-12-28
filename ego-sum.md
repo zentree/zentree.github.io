@@ -5,8 +5,11 @@ date: '2024-12-01T23:49:29+13:00'
 author: Luis
 layout: page
 guid: 'https://luis.apiolaza.net/?page_id=9'
+permalink: /ego-sum/
 classic-editor-remember:
     - block-editor
+tags:
+    - meta
 ---
 
 *Ego sum qui sum*. I am who I love, what I read, what I believe, what I do, what  I know, what I want to know and the [simple rituals](/2010/01/31/rituals/) that I follow. I was what I did and part of it carries on on who I am today. Italo Calvino put it better:
@@ -47,5 +50,3 @@ I did my B. For. Sci. degree and got my Forest Engineer title (between 1987-1992
 Between 1996 and early 2000 I did my PhD in quantitative genetics and tree breeding at [Massey University](http://www.massey.ac.nz) (New Zealand) under the supervision of [Prof. Dorian Garrick](https://www.massey.ac.nz/research/research-centres/al-rae-centre-for-genetics-and-breeding/). My PhD topic was ‘Multiple trait improvement of radiata pine’, which included the analysis of longitudinal data and the development of breeding objectives for radiata pine. My studies were supported by the NZ Ministry of Foreigns Affairs and Trade, and the NZ Forest Research Institute.
 
 My [animal breeding pedigree](http://www.animalgenome.org/lush/) is LA Apiolaza ← Dorian Garrick ← Dale van Vleck ← Charles Henderson ← Lanoy Hazel ← Jay Lush.
-
-My not very impressive [Erdős number](https://en.wikipedia.org/wiki/Erd%C5%91s_number) is 6: LA Apiolaza ← AR Gilmour ← RD Anderson ← F Pukelsheim ← GR Grimmett ← B Bollobás ← Paul Erdős

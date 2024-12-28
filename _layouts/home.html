@@ -62,9 +62,7 @@ layout: default
 
     <ul class="post-list">
       {% for post in site.posts %}
-        {% unless post.tags contains "aleph" %}
-          {% include post-list-item.html %}
-        {% endunless %}
+        {% include post-list-item.html %}
       {% endfor %}
     </ul>
   

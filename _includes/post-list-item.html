@@ -6,14 +6,15 @@
             {{ post.title }}
           </h1>
 
-          {% if post.tags contains "photos" %}
+          {% if post.tags contains "aleph"%}
+            ༄> 
+          {% elsif post.tags contains "photos" %}
             [◉¯] 
           {% elsif post.tags contains "quotes" %}
             皿
           {% elsif post.tags contains "sounds" %}
             ♬♪ 
-          {% else% }
-            {% include post-excerpt.html %}
+
           {% endif %}
 
           

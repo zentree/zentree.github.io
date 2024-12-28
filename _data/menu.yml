@@ -1,11 +1,19 @@
 - title: Publications
   url: /publications/
+  hover: PDF for all my journal articles
 
 - title: About
   url: /ego-sum/
+  hover: General 'about myself' page 
 
 - title: Colophon
   url: /colophon/
+  hover: History and tech behind this site
 
 - title: Aleph ༄>
   url: /tags/aleph/
+  hover: A collection of links. A memex 
+
+- title: Subscribe
+  url: /feed.xml
+  hover: Subscribe to feed

@@ -10,6 +10,7 @@ classic-editor-remember:
     - block-editor
 image: /wp-content/uploads/2024/03/Leo_Masliah.jpg
 tags:
+    - aleph
     - meta
     - español
 ---

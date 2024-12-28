@@ -10,4 +10,4 @@ tags:
     - aleph
 ---
 
-Worldbank’s World Integrated Trade Solution: <https://wits.worldbank.org/CountryProfile/en/Country/IND/Year/LTST/TradeFlow/Import/Partner/by-country/Product/44-49_Wood>
+Worldbank’s [World Integrated Trade Solution](https://wits.worldbank.org/CountryProfile/en/Country/IND/Year/LTST/TradeFlow/Import/Partner/by-country/Product/44-49_Wood) for wood.

@@ -12,6 +12,6 @@ tags:
     - stats
 ---
 
-Statistics for ecologists: https://statistics4ecologists-v2.netlify.app
+* [Statistics for ecologists](https://statistics4ecologists-v2.netlify.app)
 
-Active Statistics: https://avehtari.github.io/ActiveStatistics/
+* [Active Statistics](https://avehtari.github.io/ActiveStatistics/)

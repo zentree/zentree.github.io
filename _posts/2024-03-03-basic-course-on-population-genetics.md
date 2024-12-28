@@ -11,4 +11,4 @@ tags:
     - research
 ---
 
-By Bruce Weir and Jerome Goudet. I added it to the Internet Archive as well: <https://www2.unil.ch/popgen/teaching/SISG23/>
+Population genetics [course](https://www2.unil.ch/popgen/teaching/SISG23/) by Bruce Weir and Jerome Goudet. I added it to the Internet Archive as well.

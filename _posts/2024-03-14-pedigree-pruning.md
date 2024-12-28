@@ -13,4 +13,4 @@ tags:
     - breeding
 ---
 
-`ggroups`: an `R` package for pedigree and genetic groups data <https://link.springer.com/article/10.1186/s41065-020-00124-2>
+`ggroups`: an `R` package for [pedigree and genetic groups data](https://link.springer.com/article/10.1186/s41065-020-00124-2).

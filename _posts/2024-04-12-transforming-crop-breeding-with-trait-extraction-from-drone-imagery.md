@@ -12,4 +12,4 @@ tags:
     - breeding
 ---
 
-Quick popsci explanation of drone use in breeding: <https://www.seedworld.com/us/2024/02/13/transforming-crop-breeding-with-trait-extraction-from-drone-imagery/>
+Quick popsci explanation of [drone use in breeding](https://www.seedworld.com/us/2024/02/13/transforming-crop-breeding-with-trait-extraction-from-drone-imagery/).

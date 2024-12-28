@@ -10,4 +10,4 @@ tags:
     - aleph
 ---
 
-Goldman Sachs Report “Gen AI: too much spend, too little benefit? <https://www.goldmansachs.com/intelligence/pages/gs-research/gen-ai-too-much-spend-too-little-benefit/report.pdf?ref=wheresyoured.at>
+Goldman Sachs Report [Gen AI: too much spend, too little benefit?](https://www.goldmansachs.com/intelligence/pages/gs-research/gen-ai-too-much-spend-too-little-benefit/report.pdf?ref=wheresyoured.at)

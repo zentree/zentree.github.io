@@ -11,6 +11,6 @@ tags:
     - research
 ---
 
-Long-term effects of water stress on hyperspectral remote sensing indicators in young radiata pine: <https://www.sciencedirect.com/science/article/abs/pii/S0378112721007970>
+* [Long-term effects of water stress](https://www.sciencedirect.com/science/article/abs/pii/S0378112721007970) on hyperspectral remote sensing indicators in young radiata pine.
 
-Prediction of the severity of Dothistroma needle blight in radiata pine using plant based traits and narrow band indices derived from UAV hyperspectral imagery: <https://www.sciencedirect.com/science/article/abs/pii/S0168192322004804>
+* Prediction of the [severity of Dothistroma needle blight in radiata pine](https://www.sciencedirect.com/science/article/abs/pii/S0168192322004804) using plant based traits and narrow band indices derived from UAV hyperspectral imagery.

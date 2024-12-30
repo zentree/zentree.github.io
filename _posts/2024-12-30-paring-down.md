@@ -47,5 +47,8 @@ Everything seems to be working properly, but for a couple of to dos:
 
 Small fries to finish.
 
+![Chopping the site to pieces and 
+putting it together again.](/assets/images/chainsaw.jpeg)
+
 
 

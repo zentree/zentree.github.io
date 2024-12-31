@@ -27,6 +27,7 @@ site.icon: /assets/images/wunelfe-site-icon-270x270.png
 feed_icon: /assets/images/wunelfe-site-icon-270x270.png
 
 permalink: pretty
+future: true
 
 # Build settings
 remote_theme: patdryburgh/hitchens

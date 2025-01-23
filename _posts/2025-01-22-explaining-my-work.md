@@ -31,4 +31,4 @@ You want more explanations like this one?
 
 - [The breeder's equation](https://luis.apiolaza.net/2023/11/11/at-the-core-of-your-breeding-programme/)
 
-
+![There is a lot of commonality—you get the idea very quickly—but the businesses have fundamental differences. Car wash in Santiago, Chile.](/assets/images/carwash.jpeg)

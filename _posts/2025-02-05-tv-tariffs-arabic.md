@@ -5,6 +5,7 @@ date: 2025-02-05T13:30:00+13:00
 permalink: /2025/02/05/tv-tariffs-arabic/
 tags:
     - meta
+    - linkedin
 ---
 
 I was watching TV and the programme was set in Málaga. I knew that Málaga was in Southern Spain, but I was not sure exactly where; so I opened a map, which showed the city a bit more to the East than I suspected but, more importantly, the map also show the town of Tarifa. I didn't know that Tarifa existed, but I was surprised by a town with such a topical name (*).

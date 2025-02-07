@@ -1,13 +1,9 @@
 ---
-id: 9
 title: About
 date: '2024-12-01T23:49:29+13:00'
 author: Luis
 layout: page
-guid: 'https://luis.apiolaza.net/?page_id=9'
 permalink: /ego-sum/
-classic-editor-remember:
-    - block-editor
 tags:
     - meta
 ---
@@ -20,7 +16,7 @@ tags:
 
 ### About the site
 
-I created [a predecesor of this site in 1997](/colophon/), with the idea of learning how web pages worked, and making [my publications](/publications/) freely available. The blog started six years later in July 2003 as my shoe box for useful code and data analysis scribbles, things that I wanted to remember, ranging from simple issues creating problems for newbies to obscure pieces of code. I later expanded it to include photos and sounds (grouped under [jetsam](http://luis.apiolaza.net/category/jetsam/)), nothing spectacular but I enjoy recording the world around.
+I created [a predecesor of this site in 1997](/colophon/), with the idea of learning how web pages worked, and making [my publications](/publications/) freely available. The blog started six years later in July 2003 as my shoe box for useful code and data analysis scribbles, things that I wanted to remember, ranging from simple issues creating problems for newbies to obscure pieces of code. I later expanded it to include photos and sounds (grouped under [jetsam](/tags/photos/)), nothing spectacular but I enjoy recording the world around.
 
 On the data analysis side of things, this is not an ‘R blog’, although R is the main vehicle that I use these days for data analysis. ASReml, SAS, Python and any other thing that I may use from time to time also appear in posts, together with quotes and notes from books that I find interesting.
 

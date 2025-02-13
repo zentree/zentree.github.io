@@ -1,7 +1,7 @@
 ---
 title: Quantitative Genetics links
 layout: post
-permalink: /2025/02/13/quantitative-genetics-links.md
+permalink: /2025/02/13/quantitative-genetics-links/
 date: 2025-02-13T21:16:00+13:00
 tags:
     - aleph

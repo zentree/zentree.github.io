@@ -11,6 +11,6 @@ tags:
 
 A couple of links that could be useful for teaching:
 
-* Notes on Population and Quantitative Genetics by Graham Coop  https://cooplab.github.io/popgen-notes/
-* Quantitative Genetics by Resende and Ferrão https://lfelipe-ferrao.github.io/class/quantGenetic/
+* Notes on Population and Quantitative Genetics by Graham Coop  <https://cooplab.github.io/popgen-notes/>
+* Quantitative Genetics by Resende and Ferrão <https://lfelipe-ferrao.github.io/class/quantGenetic/>
 

@@ -24,4 +24,4 @@ And that is how we got these amazing trials in forestry.
 ‡ McCullagh and Nelder. 1983. Generalized Linear Models. Chapman & Hall.
 ⸸ Namkoong. 1965. Application of Nelder’s designs in tree improvement research.
 
-![Photos: Left: view of a Nelder trial near Christchurch, embedded on a much larger trial. The dark side is Pinus radiata, while the light side is Eucalyptus globulus. Right: portrait of John Nelder, from the Royal Society website.](/assets/images/nelder.jpg)
+![Photos: Left: view of a Nelder trial near Christchurch, embedded on a much larger trial. The dark side is Pinus radiata, while the light side is Eucalyptus globulus. Right: portrait of John Nelder, from the Royal Society website.](/assets/images/nelders.jpg)

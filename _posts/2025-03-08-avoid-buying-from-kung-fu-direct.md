@@ -14,7 +14,7 @@ The price was at the top of our price range, so we ordered three [size 4 swords]
 1. Two of the three swords were not the size we ordered, but a bit longer.
 2. On top of that, those two swords also came with broken scabbards (see photo).
 
-![Broken scabbard](/assets/images/sword-broken.jpeg)
+![Broken scabbard](/assets/images/sword-broken.jpg)
 ![Broken sword, great condition box](/assets/images/sword-box.jpeg)
 
 Instead of immediately enjoying practicing with the new swords, we started the tortuous road to getting a satisfactory response from the company. We contacted them immediately and Kung Fu Direct did not bother replying until we mentioned that we would start writing Google Reviews.

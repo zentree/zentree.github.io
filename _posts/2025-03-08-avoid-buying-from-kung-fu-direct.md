@@ -7,17 +7,17 @@ tags:
     - meta
 ---
 
-Last 28<sup>th</sup> December, a couple of friends and I were very excited at the prospect of buying new TaiChi swords. After doing an extensive web search we settled on ordering the swords from [Kung Fu Direct](https://www.kungfudirect.com/) 
+Last 28<sup>th</sup> December, a couple of friends and I were very excited at the prospect of buying new TaiChi swords, with enough time to practice towards the Chinese New Year celebration. After doing an extensive web search we settled on ordering the swords from [Kung Fu Direct](https://www.kungfudirect.com/) 
 
 The price was at the top of our price range, so we ordered three [size 4 swords](https://www.kungfudirect.com/product/competition-wushu-straight-swords-wooden-handle?search=hd1003) and payed for UPS shipping from the US to New Zealand. There was no combined postage option for shipping, so they charged 3 separate shipping costs, although they were packed in a single box. We were excited when the **pristine** UPS box (important detail) arrived 10 days later. Here we started a saga:
 
 1. Two of the three swords were not the size we ordered, but a bit longer.
-2. On top of that, those two swords also came with broken scabbards (see photo).
+2. On top of that, those two swords also came with broken scabbards, essential for safe storange and transport of the blades (see photo).
 
 ![Broken scabbard](/assets/images/sword-broken.jpg)
 ![Broken sword, great condition box](/assets/images/sword-box.jpeg)
 
-Instead of immediately enjoying practicing with the new swords, we started the tortuous road to getting a satisfactory response from the company. We contacted them immediately and Kung Fu Direct did not bother replying until we mentioned that we would start writing Google Reviews.
+Instead of immediately enjoying practicing with the new swords, we started the tortuous road to getting a satisfactory response from the company. We contacted them immediately and Kung Fu Direct did not bother replying until I wrote an online review on their Facebook page.
 
 Their first response was to 1) completely ignore the difference in length and 2) to shift the blame UPS for the damage, although the box was perfectly OK. After contacting UPS, they explained that there was no damage in transit and they passed that information to Kung Fu Direct.
 
@@ -25,7 +25,7 @@ This was followed by a number of messages where Kung Fu Direct refused to even a
 
 Customer service has been appalling and now searching for other people's experiences we have seen there are [plenty of complaints](https://www.yelp.com/biz/kungfudirect-san-jose) about broken or cracked scabbards, and poor service. 
 
-Frustrated by the situation, we offered [Kung Fu Direct](https://www.kungfudirect.com/) two options:
+Frustrated by the situation and seeking a speedy resolution we suggested [Kung Fu Direct](https://www.kungfudirect.com/) two options:
 
 1. Replace what is damaged (**the 2 scabbards**) AS WELL AS send the correct size swords OR,
 2. Offer a full refund (**including ALL international shipping costs since it is their fault**) and we will return the 2 incorrect size swords and the 2 damaged scabbards.

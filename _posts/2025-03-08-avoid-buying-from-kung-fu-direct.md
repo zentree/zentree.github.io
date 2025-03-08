@@ -30,6 +30,8 @@ Frustrated by the situation, we offered [Kung Fu Direct](https://www.kungfudirec
 1. Replace what is damaged (**the 2 scabbards**) AS WELL AS send the correct size swords OR,
 2. Offer a full refund (**including ALL international shipping costs since it is their fault**) and we will return the 2 incorrect size swords and the 2 damaged scabbards.
 
-We are still waiting for answer.
+**We are still waiting for an answer.**
+
+Funny thing: [Kung Fu Direct](https://www.kungfudirect.com/) is one of the sponsors of the 2025 Golden State International Wushu Championships <GoWushu.com>. Organisers should be more selective about sponsors.
 
 [taichi, kung fu, wushu, swords, martial arts weapons]

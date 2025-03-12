@@ -5,7 +5,7 @@ date: 2025-03-12T15:45:00+13:00
 permalink: /2025/03/12/why-i-pay-for-some-music/
 tags:
     - meta
-    - music
+    - sounds
 ---
 
 Today at lunch time I attended the Professorial Lecture by [Ann-Marie Kennedy](https://profiles.canterbury.ac.nz/Ann-Marie-Kennedy). She works in Social Marketing and was talking about 'Change the System, Change the World' with some examples on fast fashion. I was thinking a lot about politics, but also about music.

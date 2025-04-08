@@ -1,5 +1,5 @@
 ---
-title: Breeding: the two sides of accuracy
+title: "Breeding: the two sides of accuracy"
 layout: post
 date: 2025-04-08T09:52:50+13:00
 permalink: /2025/04/08/breeding-the-two-sides-of-accuracy/

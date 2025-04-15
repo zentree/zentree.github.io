@@ -6,6 +6,7 @@ permalink: /2025/04/15/serious-bold-objectives/
 tags:
     - breeding
     - forestry
+    - linkedin
 ---
 
 This time I don't mean breeding objectives (a list of biological traits that we want to improve and their respective relative economic weights) but more of a lofty goal. Something beyond 'we'll keep on doing things a little bit better and hope that something happens'.

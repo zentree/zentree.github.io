@@ -16,7 +16,7 @@ tags:
     - stats
 ---
 
-Where were we? Giving [some love]({% post_url some-love-for-base-r-part-1 %}) 
+Where were we? Giving [some love]({% post_url 2023-03-18-some-love-for-base-r-part-1 %}) 
 to base-R and putting together the idea that it is possible to write R 
 very clearly when using base. Two sets of typical issues:
 
@@ -149,6 +149,6 @@ mtcars |> with(mean(mpg))
 Both `within()` (used in part 1) and `with()` will make your base code
 _mucho moar_ readable (pun intended) and pipe ready.
 
-Continue to [part3]({% post_url some-love-for-base-r-part-3 %}) of this series.
+Continue to [part3]({% post_url 2023-03-21-some-love-for-base-r-part-3 %}) of this series.
 
 ![Between buildings](/assets/images/between-buildings.jpeg)

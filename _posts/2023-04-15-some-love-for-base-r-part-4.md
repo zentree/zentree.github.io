@@ -59,7 +59,7 @@ example_bound <- rbind(example_df1, example_df2, example_df3)
 Of course we can use pipes too:
 
 ```R
-  
+
 example_df1 |> rbind(example_df2) -> example_bound2
 ```
 
@@ -69,6 +69,7 @@ If we have a couple of data frames with the same number of rows (cases),
 then using `cbind()` binds/glues/stitches the data frames side by side.
 
 ```R
+
 example_df4 <- data.frame(record = 1:24,
                           treat1 = rep(LETTERS[1:3], each = 8))
 
@@ -93,6 +94,7 @@ in which all elements have the same type.
 Coercing different types may produce unexpected results
 
 ```R
+
 # Binding columns
 x <- 1:26
 y <- sqrt(x)
@@ -130,6 +132,7 @@ the function to use is `merge()`, which may work like `left_join()`
 and `right_join()` in `dplyr`.
 
 ```R
+
 merge(x, y, by =)
 # which you can read as
 merge(left, right, by = )
@@ -147,6 +150,7 @@ a technical threshold for microfibril angle and modulus of elasticity).
 I would like to join them by ids:
 
 ```R
+
 head(firstmfa)
     ids assess
 1 DM001      3
@@ -174,6 +178,7 @@ Actual wood density (in kg/m<sup>3</sup>) and microfibril angle (in degrees)
 assessments per tree ring, joined by tree code and ring number
 
 ```R
+
 > head(densdataT)
     ids ring density
 1 DM001    1      NA

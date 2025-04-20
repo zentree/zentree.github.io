@@ -16,15 +16,25 @@ tags:
     - programming
 ---
 
-Following on parts [1](/2023/03/18/some-love-for-base-r-part-1/), [2](/2023/03/18/some-love-for-base-r-part-2/) &amp; [3](/2023/03/21/some-love-for-base-r-part-3/)—yes, a series—we arrive to part 4 revisiting Base R. See [part 1](/2023/03/18/some-love-for-base-r-part-1/) for the rationale, in case you’re wondering Whyyyy?
+Following on parts [1](/2023/03/18/some-love-for-base-r-part-1/), 
+[2](/2023/03/18/some-love-for-base-r-part-2/) &amp; 
+[3](/2023/03/21/some-love-for-base-r-part-3/)—yes, a series—we arrive
+to part 4 revisiting Base R. 
+See [part 1](/2023/03/18/some-love-for-base-r-part-1/) for the rationale, 
+in case you’re wondering Whyyyy?
 
-A typical question going back to `Base` from the `tidyverse`: How do I join datasets? What do I use instead of `bind_rows()` and `bind_cols()`? Easy, rbind() and cbind(), yes, r for rows and c for cols, because base is concise.
+A typical question going back to `Base` from the `tidyverse`: 
+How do I join datasets? What do I use instead of `bind_rows()` 
+and `bind_cols()`? Easy, rbind() and cbind(), 
+yes, r for rows and c for cols, because base is concise.
 
 ### By rows
 
-If we have a couple of data frames with the same variables (columns), then using `rbind()` binds/glues/stitches the data frames one after the other.
+If we have a couple of data frames with the same variables (columns), 
+then using `rbind()` binds/glues/stitches the data frames one after the other.
 
 ```R
+
 example_df1 <- data.frame(record = 1:24,
                           treatment = rep(LETTERS[1:3], each = 8))
 
@@ -49,12 +59,14 @@ example_bound <- rbind(example_df1, example_df2, example_df3)
 Of course we can use pipes too:
 
 ```R
+  
 example_df1 |> rbind(example_df2) -> example_bound2
 ```
 
 ### By columns
 
-If we have a couple of data frames with the same number of rows (cases), then using `cbind()` binds/glues/stitches the data frames side by side.
+If we have a couple of data frames with the same number of rows (cases), 
+then using `cbind()` binds/glues/stitches the data frames side by side.
 
 ```R
 example_df4 <- data.frame(record = 1:24,
@@ -74,7 +86,11 @@ example_cbound
 ...
 ```
 
-When you are working with data frames you get pretty much what you’d expect in dplyr. However, if you are not working with data frames but, instead, you’re dealing with vectors you end up with matrices, in which all elements have the same type. Coercing different types may produce unexpected results
+When you are working with data frames you get pretty much
+what you’d expect in dplyr. However, if you are not working with data frames
+but, instead, you’re dealing with vectors you end up with matrices, 
+in which all elements have the same type. 
+Coercing different types may produce unexpected results
 
 ```R
 # Binding columns
@@ -109,7 +125,9 @@ example_2
 
 ### By one or more indices
 
-When you have data frames with one or more variables “in common” the function to use is `merge()`, which may work like `left_join()` and `right_join()` in `dplyr`.
+When you have data frames with one or more variables “in common” 
+the function to use is `merge()`, which may work like `left_join()` 
+and `right_join()` in `dplyr`.
 
 ```R
 merge(x, y, by =)
@@ -117,9 +135,16 @@ merge(x, y, by =)
 merge(left, right, by = )
 ```
 
-Think of `x` as left and `y` as right. Using `all.x = TRUE` extra rows will be added to the output, one for each row in `x` that has no matching row in `y`. Using `all.y = TRUE` extra rows will be added to the output, one for each row in `y` that has no matching row in `x`.
+Think of `x` as left and `y` as right. Using `all.x = TRUE` 
+extra rows will be added to the output, 
+one for each row in `x` that has no matching row in `y`. 
+Using `all.y = TRUE` extra rows will be added to the output, 
+one for each row in `y` that has no matching row in `x`.
 
-As an example, I have two data frames with a tree id (`ids`) and a derived variable (first tree ring to achieve a technical threshold for microfibril angle and modulus of elasticity). I would like to join them by ids:
+As an example, I have two data frames with a tree id (`ids`) 
+and a derived variable (first tree ring to achieve 
+a technical threshold for microfibril angle and modulus of elasticity). 
+I would like to join them by ids:
 
 ```R
 head(firstmfa)
@@ -144,7 +169,9 @@ head(firstmoe)
 gendata <- merge(firstmfa, firstmoe, by = 'ids', all = TRUE)
 ```
 
-Another example using more than one joining variable. Actual wood density (in kg/m<sup>3</sup>) and microfibril angle (in degrees) assessments per tree ring, joined by tree code and ring number
+Another example using more than one joining variable. 
+Actual wood density (in kg/m<sup>3</sup>) and microfibril angle (in degrees) 
+assessments per tree ring, joined by tree code and ring number
 
 ```R
 > head(densdataT)

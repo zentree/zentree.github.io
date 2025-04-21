@@ -18,16 +18,16 @@ overlaying experimental designs and mating designs. Typically,
 trees are the experimental units and there was a correspondence 
 between trees and measurements. In many programmes
 the trial would be assessed only once, so one could get something like: 
-`tree_id diameter height` etc. Many programmes used structures like this,
+`[tree_id, diameter, height, etc]`. Many programmes used structures like this,
 which involved adding columns to the table every time you added new traits.
-I am talking about people keeping Lotus 123, Quattro Pro, etc 
+I am talking about people keeping Lotus 123, Quattro Pro, etc (yep, that old)
 to record assessments.
 
 Later someone decided to measure the trial again, which meant 
-the data could end up looking like `tree_id diam_5 ht_5 diam_10 ht_10`. 
+the data could end up looking like `[tree_id, diam_5, ht_5, diam_10, ht_10, etc]`. 
 It was messy, so eventually someone would say 
 'What about we normalise the table?', which would look like
-`tree_id age trait_name value` so one could have any number of traits,
+`[tree_id, age, trait_name, value]` so one could have any number of traits,
 assessed any number of times without changing the structure of the table.
 
 At some point, breeding programmes start taking more complex measurements.
@@ -61,16 +61,16 @@ from trait to trait). We also have to deal with the trial-level information:
 location, design, management, etc.
 
 By now you get the idea; data management shifted from being a complex problem
-to a very complex problem, at least for doing it properly. 
+to a very complex problem, at least when doing it properly. 
 There was a time when a couple of us could put it together,
 but now one is better off getting a commercial breeders' database
 (or multiple systems).
 
 I was having a chat about databases with a breeder who is using 
 a forest trials database (trial admin), a breeding trials database
-(typical phenotypic data) and a genomic database. 
+(BMS, for typical phenotypic data) and a genomic database. 
 All of them connect to asreml-R and to another single-step, heavy-duty
-genetic prediction system. On top of that, there is a legacy database
+genetic prediction system (Bolt). On top of that, there is a legacy database
 from which there are old records that still need to be moved.
 Not accounting, yet, for the remote sensing staff 
 (millions or billions of points).

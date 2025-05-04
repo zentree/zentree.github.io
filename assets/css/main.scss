@@ -27,3 +27,13 @@ code {
 .highlight {
     overflow-x: auto;
 }
+
+@media (min-width: 768px) {
+  .site-masthead h1 {
+    font-size: 4em;
+  }
+
+  .site-masthead h2 {
+    font-size: 2em;
+  }
+}

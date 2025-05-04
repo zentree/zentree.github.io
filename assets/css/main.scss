@@ -20,7 +20,7 @@ $asset_url: '{{ '/assets' | absolute_url }}';
   "search"
 ;
 
-.post code {
+.post pre > code {
     text-indent: 0em;
 }
 

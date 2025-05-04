@@ -20,11 +20,11 @@ $asset_url: '{{ '/assets' | absolute_url }}';
   "search"
 ;
 
-.post-title h1 {
+.post > h1 {
   font-size: 1.7em;
 }
 
-.post code {
+.post p > code {
   font-size: 0.8em;
 }
 
